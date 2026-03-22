@@ -1,0 +1,121 @@
+[
+  {
+    "ts": 1774187979,
+    "hora": "10:59:39",
+    "tipo": "info",
+    "msg": "Monitor 1 ativo — 768x1366 offset (-768,0)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774187979,
+    "hora": "10:59:39",
+    "tipo": "info",
+    "msg": "Sistema iniciado — CTRL+C para parar",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774187979,
+    "hora": "10:59:39",
+    "tipo": "hb",
+    "msg": "Sistema OK — 10:59:39",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 10:59"
+  },
+  {
+    "ts": 1774188000,
+    "hora": "11:00:00",
+    "tipo": "timer",
+    "msg": "Horário 11:00 — iniciando tarefa",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774188000,
+    "hora": "11:00:00",
+    "tipo": "info",
+    "msg": "Nova instrução: Abra o aplicativo Google, acesse https://gemini.google.com/ , descreva na caixa de texto para criar uma imagem melancoliga gotica de um cenario feudal com legenda emo, clique com o botão direito do mouse e copie essa imagem, acesse https://www.youtube.com/@TalDoGuh/posts e cole a imagem no campo de postagem, acesse https://www.tiktok.com/tiktokstudio/upload?from=webapp e cole a imagem no campo de upload, acesse https://www.instagram.com/ e poste a imagem como um novo post, ",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774188000,
+    "hora": "11:00:00",
+    "tipo": "info",
+    "msg": "── Ciclo 1/99 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774188000,
+    "hora": "11:00:00",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://gemini.google.com/ , descreva na caixa de texto para criar uma imagem melancoliga gotica de um cenario feudal com legenda emo, clique com o botão direito do mouse e copie essa imagem, acesse https://www.youtube.com/@TalDoGuh/posts e cole a imagem no campo de postagem, acesse https://www.tiktok.com/tiktokstudio/upload?from=webapp e cole a imagem no campo de upload, acesse https://www.instagram.com/ e poste a imagem como um novo post, \nFEEDBACK: nenhum"
+  },
+  {
+    "ts": 1774188099,
+    "hora": "11:01:39",
+    "tipo": "resposta",
+    "msg": "IA respondeu",
+    "detalhe": "TECLA(win)\nDIGITAR(chrome)\nTECLA(enter)\nESPERA(2)\nCopiouTela()\nColouPostagem(\"Clique com o botão direito do mouse para criar uma imagem melancoliga gotica de um cenario feudal com legenda emo\")\nCopiouTikTok()\nEsperou(3)\nColouUploadTikTok()\nCopiouInstagram()\nEsperou(1)\nPostou(\"Porque você não sabe me amar? Por que eu preciso de uma paixão verdadeira?\")"
+  },
+  {
+    "ts": 1774188099,
+    "hora": "11:01:39",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: TECLA(win)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774188099,
+    "hora": "11:01:39",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: DIGITAR(chrome)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774188099,
+    "hora": "11:01:39",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: TECLA(enter)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774188099,
+    "hora": "11:01:39",
+    "tipo": "info",
+    "msg": "3 ação(ões) reconhecida(s) — executando...",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774188099,
+    "hora": "11:01:39",
+    "tipo": "acao",
+    "msg": "Tecla: win",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774188100,
+    "hora": "11:01:40",
+    "tipo": "acao",
+    "msg": "Digitar: \"chrome\"",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774188100,
+    "hora": "11:01:40",
+    "tipo": "acao",
+    "msg": "Tecla: enter",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774188101,
+    "hora": "11:01:41",
+    "tipo": "info",
+    "msg": "── Ciclo 2/99 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774188101,
+    "hora": "11:01:41",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://gemini.google.com/ , descreva na caixa de texto para criar uma imagem melancoliga gotica de um cenario feudal com legenda emo, clique com o botão direito do mouse e copie essa imagem, acesse https://www.youtube.com/@TalDoGuh/posts e cole a imagem no campo de postagem, acesse https://www.tiktok.com/tiktokstudio/upload?from=webapp e cole a imagem no campo de upload, acesse https://www.instagram.com/ e poste a imagem como um novo post, \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
+  }
+]
