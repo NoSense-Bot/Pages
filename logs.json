@@ -1,383 +1,5 @@
 [
   {
-    "ts": 1774191289,
-    "hora": "11:54:49",
-    "tipo": "acao",
-    "msg": "Tecla: win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191289,
-    "hora": "11:54:49",
-    "tipo": "info",
-    "msg": "── Ciclo 9/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191289,
-    "hora": "11:54:49",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), ESPERAR(2)\n  Ciclo 2: TECLA(win), DIGITAR(<nome do grupo>), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end), ESPERAR(2)\n  Ciclo 3: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end), ESPERAR(2)\n  Ciclo 4: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(o), ESPERAR(2), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2)\n  Ciclo 5: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(x), ESPERAR(2), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(y), ESPERAR(2)\n  Ciclo 6: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774191344,
-    "hora": "11:55:44",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "1. TECLA(win), DIGITAR(chrome), ESPERAR(2)\n2. TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo)\n3. TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(x), ESPERAR(2)"
-  },
-  {
-    "ts": 1774191344,
-    "hora": "11:55:44",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win), DIGITAR(chrome), ESPERAR(2)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191344,
-    "hora": "11:55:44",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191344,
-    "hora": "11:55:44",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(x), ESPERAR(2)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191344,
-    "hora": "11:55:44",
-    "tipo": "info",
-    "msg": "3 ação(ões) reconhecida(s) — executando...",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191344,
-    "hora": "11:55:44",
-    "tipo": "acao",
-    "msg": "Tecla: win), DIGITAR(chrome), ESPERAR(2",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191344,
-    "hora": "11:55:44",
-    "tipo": "acao",
-    "msg": "Tecla: win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191345,
-    "hora": "11:55:45",
-    "tipo": "acao",
-    "msg": "Tecla: win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(x), ESPERAR(2",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191345,
-    "hora": "11:55:45",
-    "tipo": "info",
-    "msg": "── Ciclo 10/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191345,
-    "hora": "11:55:45",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), ESPERAR(2)\n  Ciclo 2: TECLA(win), DIGITAR(<nome do grupo>), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end), ESPERAR(2)\n  Ciclo 3: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end), ESPERAR(2)\n  Ciclo 4: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(o), ESPERAR(2), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2)\n  Ciclo 5: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(x), ESPERAR(2), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(y), ESPERAR(2)\n  Ciclo 6: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2)\n  Ciclo 7: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(x), ESPERAR(2)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774191402,
-    "hora": "11:56:42",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "Ciclo 1: TECLA(win), DIGITAR(chrome), ESPERAR(2)\n\nCiclo 2: TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo)\n\nCiclo 3: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end)"
-  },
-  {
-    "ts": 1774191402,
-    "hora": "11:56:42",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 1: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191402,
-    "hora": "11:56:42",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 2: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191402,
-    "hora": "11:56:42",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 3: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191402,
-    "hora": "11:56:42",
-    "tipo": "erro",
-    "msg": "Formato inválido — tentativa 1/3",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191402,
-    "hora": "11:56:42",
-    "tipo": "info",
-    "msg": "── Ciclo 11/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191402,
-    "hora": "11:56:42",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), ESPERAR(2)\n  Ciclo 2: TECLA(win), DIGITAR(<nome do grupo>), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end), ESPERAR(2)\n  Ciclo 3: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end), ESPERAR(2)\n  Ciclo 4: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(o), ESPERAR(2), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2)\n  Ciclo 5: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(x), ESPERAR(2), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(y), ESPERAR(2)\n  Ciclo 6: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2)\n  Ciclo 7: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(x), ESPERAR(2)\n\nErro no último ciclo: erro: você respondeu isto:\nCiclo 1: TECLA(win), DIGITAR(chrome), ESPERAR(2)\n\nCiclo 2: TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo)\n\nCiclo 3: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end)\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada.\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774191450,
-    "hora": "11:57:30",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "CICLO 1: TECLA(win), DIGITAR(<nome do grupo>), ESPERA(2)\nCICLO 2: TECLA(win), DIGITAR(chrome), ESPERA(2)\nCICLO 3: TECLA(ctrl), DIGITAR(alt), ESPERA(2)"
-  },
-  {
-    "ts": 1774191450,
-    "hora": "11:57:30",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 1: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191450,
-    "hora": "11:57:30",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 2: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191450,
-    "hora": "11:57:30",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 3: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191450,
-    "hora": "11:57:30",
-    "tipo": "erro",
-    "msg": "Formato inválido — tentativa 2/3",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191450,
-    "hora": "11:57:30",
-    "tipo": "info",
-    "msg": "── Ciclo 12/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191450,
-    "hora": "11:57:30",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), ESPERAR(2)\n  Ciclo 2: TECLA(win), DIGITAR(<nome do grupo>), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end), ESPERAR(2)\n  Ciclo 3: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end), ESPERAR(2)\n  Ciclo 4: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(o), ESPERAR(2), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2)\n  Ciclo 5: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(x), ESPERAR(2), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(y), ESPERAR(2)\n  Ciclo 6: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2)\n  Ciclo 7: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(x), ESPERAR(2)\n\nErro no último ciclo: erro: você respondeu isto:\nCICLO 1: TECLA(win), DIGITAR(<nome do grupo>), ESPERA(2)\nCICLO 2: TECLA(win), DIGITAR(chrome), ESPERA(2)\nCICLO 3: TECLA(ctrl), DIGITAR(alt), ESPERA(2)\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada.\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774191487,
-    "hora": "11:58:07",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "1. TECLA(win), DIGITAR(chrome), ESPERA(2)\n2. TECLA(win), DIGITAR(google), ESPERA(2)\n3. TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERA(2)"
-  },
-  {
-    "ts": 1774191487,
-    "hora": "11:58:07",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win), DIGITAR(chrome), ESPERA(2)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191487,
-    "hora": "11:58:07",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win), DIGITAR(google), ESPERA(2)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191487,
-    "hora": "11:58:07",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERA(2)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191487,
-    "hora": "11:58:07",
-    "tipo": "info",
-    "msg": "3 ação(ões) reconhecida(s) — executando...",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191487,
-    "hora": "11:58:07",
-    "tipo": "acao",
-    "msg": "Tecla: win), DIGITAR(chrome), ESPERA(2",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191488,
-    "hora": "11:58:08",
-    "tipo": "acao",
-    "msg": "Tecla: win), DIGITAR(google), ESPERA(2",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191488,
-    "hora": "11:58:08",
-    "tipo": "acao",
-    "msg": "Tecla: ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERA(2",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191489,
-    "hora": "11:58:09",
-    "tipo": "info",
-    "msg": "── Ciclo 13/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191489,
-    "hora": "11:58:09",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), ESPERAR(2)\n  Ciclo 2: TECLA(win), DIGITAR(<nome do grupo>), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end), ESPERAR(2)\n  Ciclo 3: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end), ESPERAR(2)\n  Ciclo 4: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(o), ESPERAR(2), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2)\n  Ciclo 5: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(x), ESPERAR(2), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(y), ESPERAR(2)\n  Ciclo 6: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2)\n  Ciclo 7: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(x), ESPERAR(2)\n  Ciclo 8: TECLA(win), DIGITAR(chrome), ESPERA(2), TECLA(win), DIGITAR(google), ESPERA(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERA(2)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774191524,
-    "hora": "11:58:44",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "Ciclo 8: TECLA(win), DIGITAR(chrome), ESPERA(2)\nCiclo 9: TECLA(win), DIGITAR(<nome do grupo>), ESPERA(2)\nCiclo 10: TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERA(2)"
-  },
-  {
-    "ts": 1774191524,
-    "hora": "11:58:44",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 8: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191524,
-    "hora": "11:58:44",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 9: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191524,
-    "hora": "11:58:44",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 10: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191524,
-    "hora": "11:58:44",
-    "tipo": "erro",
-    "msg": "Formato inválido — tentativa 1/3",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191524,
-    "hora": "11:58:44",
-    "tipo": "info",
-    "msg": "── Ciclo 14/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191524,
-    "hora": "11:58:44",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), ESPERAR(2)\n  Ciclo 2: TECLA(win), DIGITAR(<nome do grupo>), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end), ESPERAR(2)\n  Ciclo 3: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end), ESPERAR(2)\n  Ciclo 4: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(o), ESPERAR(2), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2)\n  Ciclo 5: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(x), ESPERAR(2), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(y), ESPERAR(2)\n  Ciclo 6: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2)\n  Ciclo 7: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(x), ESPERAR(2)\n  Ciclo 8: TECLA(win), DIGITAR(chrome), ESPERA(2), TECLA(win), DIGITAR(google), ESPERA(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERA(2)\n\nErro no último ciclo: erro: você respondeu isto:\nCiclo 8: TECLA(win), DIGITAR(chrome), ESPERA(2)\nCiclo 9: TECLA(win), DIGITAR(<nome do grupo>), ESPERA(2)\nCiclo 10: TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERA(2)\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada.\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774191553,
-    "hora": "11:59:13",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "TECLA(win)\nDIGITAR(chrome)\nESPERA(2)"
-  },
-  {
-    "ts": 1774191553,
-    "hora": "11:59:13",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191553,
-    "hora": "11:59:13",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: DIGITAR(chrome)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191553,
-    "hora": "11:59:13",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'ESPERA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191553,
-    "hora": "11:59:13",
-    "tipo": "info",
-    "msg": "2 ação(ões) reconhecida(s) — executando...",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191553,
-    "hora": "11:59:13",
-    "tipo": "acao",
-    "msg": "Tecla: win",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191553,
-    "hora": "11:59:13",
-    "tipo": "acao",
-    "msg": "Digitar: \"chrome\"",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191554,
-    "hora": "11:59:14",
-    "tipo": "info",
-    "msg": "── Ciclo 15/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774191554,
-    "hora": "11:59:14",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), ESPERAR(2)\n  Ciclo 2: TECLA(win), DIGITAR(<nome do grupo>), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end), ESPERAR(2)\n  Ciclo 3: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(end), ESPERAR(2)\n  Ciclo 4: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(o), ESPERAR(2), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2)\n  Ciclo 5: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(x), ESPERAR(2), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(y), ESPERAR(2)\n  Ciclo 6: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(novo-site-de-baixo), ESPERAR(2)\n  Ciclo 7: TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), ESPERAR(2), TECLA(tab), DIGITAR(novo-site-de-baixo), TECLA(win), DIGITAR(chrome), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERAR(2), TECLA(win), DIGITAR(google), ESPERAR(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(x), ESPERAR(2)\n  Ciclo 8: TECLA(win), DIGITAR(chrome), ESPERA(2), TECLA(win), DIGITAR(google), ESPERA(2), TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(end), ESPERA(2)\n  Ciclo 9: TECLA(win), DIGITAR(chrome)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774191577,
-    "hora": "11:59:37",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "1. TECLA(win), DIGITAR(chrome)\n2. ESPERA(2)\n1. TECLA(win), DIGITAR(google)\n2. TECLA(ctrl), DIGITAR(alt), TECLA(tab), DIGITAR(o)"
-  },
-  {
     "ts": 1774191577,
     "hora": "11:59:37",
     "tipo": "info",
@@ -1398,5 +1020,383 @@
     "tipo": "envio",
     "msg": "Enviando para IA...",
     "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: DIGITAR(google chrome), TECLA(chrome), DIGITAR(https://x.com/home)\n  Ciclo 2: TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab)\n  Ciclo 3: DIGITAR(chrome), TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab)\n\nErro no último ciclo: erro: você respondeu isto:\nCiclo: DIGITAR(chrome), TECLA(chrome), DIGITAR(https://x.com/home)\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada.\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
+  },
+  {
+    "ts": 1774192945,
+    "hora": "12:22:25",
+    "tipo": "resposta",
+    "msg": "IA respondeu",
+    "detalhe": "1. TECLA(chrome), DIGITAR(https://x.com/home)\n2. TECLA(tab)\n3. DIGITAR(https://x.com/post-title)"
+  },
+  {
+    "ts": 1774192945,
+    "hora": "12:22:25",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: TECLA(chrome), DIGITAR(https://x.com/home)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192945,
+    "hora": "12:22:25",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: TECLA(tab)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192945,
+    "hora": "12:22:25",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: DIGITAR(https://x.com/post-title)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192945,
+    "hora": "12:22:25",
+    "tipo": "info",
+    "msg": "3 ação(ões) reconhecida(s) — executando...",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192945,
+    "hora": "12:22:25",
+    "tipo": "acao",
+    "msg": "Tecla: chrome), DIGITAR(https://x.com/home",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192945,
+    "hora": "12:22:25",
+    "tipo": "acao",
+    "msg": "Tecla: tab",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192946,
+    "hora": "12:22:26",
+    "tipo": "acao",
+    "msg": "Digitar: \"https://x.com/post-title\"",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192947,
+    "hora": "12:22:27",
+    "tipo": "info",
+    "msg": "── Ciclo 6/99 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192948,
+    "hora": "12:22:28",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: DIGITAR(google chrome), TECLA(chrome), DIGITAR(https://x.com/home)\n  Ciclo 2: TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab)\n  Ciclo 3: DIGITAR(chrome), TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab)\n  Ciclo 4: TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab), DIGITAR(https://x.com/post-title)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
+  },
+  {
+    "ts": 1774192966,
+    "hora": "12:22:46",
+    "tipo": "resposta",
+    "msg": "IA respondeu",
+    "detalhe": "1. TECLA(chrome), DIGITAR(https://x.com/home)\n2. DIGITAR(https://x.com/post-title)\n3. DIGITAR(https://x.com/posts/comment-title)"
+  },
+  {
+    "ts": 1774192966,
+    "hora": "12:22:46",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: TECLA(chrome), DIGITAR(https://x.com/home)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192966,
+    "hora": "12:22:46",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: DIGITAR(https://x.com/post-title)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192966,
+    "hora": "12:22:46",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: DIGITAR(https://x.com/posts/comment-title)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192966,
+    "hora": "12:22:46",
+    "tipo": "info",
+    "msg": "3 ação(ões) reconhecida(s) — executando...",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192966,
+    "hora": "12:22:46",
+    "tipo": "acao",
+    "msg": "Tecla: chrome), DIGITAR(https://x.com/home",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192966,
+    "hora": "12:22:46",
+    "tipo": "acao",
+    "msg": "Digitar: \"https://x.com/post-title\"",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192968,
+    "hora": "12:22:48",
+    "tipo": "acao",
+    "msg": "Digitar: \"https://x.com/posts/comment-title\"",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192970,
+    "hora": "12:22:50",
+    "tipo": "info",
+    "msg": "── Ciclo 7/99 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774192970,
+    "hora": "12:22:50",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: DIGITAR(google chrome), TECLA(chrome), DIGITAR(https://x.com/home)\n  Ciclo 2: TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab)\n  Ciclo 3: DIGITAR(chrome), TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab)\n  Ciclo 4: TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab), DIGITAR(https://x.com/post-title)\n  Ciclo 5: TECLA(chrome), DIGITAR(https://x.com/home), DIGITAR(https://x.com/post-title), DIGITAR(https://x.com/posts/comment-title)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
+  },
+  {
+    "ts": 1774193045,
+    "hora": "12:24:05",
+    "tipo": "resposta",
+    "msg": "IA respondeu",
+    "detalhe": "Tabela das Ações Executadas:\n| Ciclo | DIGITAR(google chrome) | TECLA(chrome) | DIGITAR(https://x.com/home) | TECLA(chrome) | DIGITAR(https://x.com/home) | TECLA(tab) | DIGITAR(https://x.com/post-title) | TECLA(chrome) | DIGITAR(https://x.com/home) | DIGITAR(https://x.com/post-title) | DIGITAR(https://x.com/posts/comment-title) |\n|-------|------------------------|----------------|-------------------------------|----------------|------------------------------|------------|--------------------------------------|----------------|------------------------------|----------------------------------|------------------------------------|\n\nNova Captura de Tela:\n\nTabela das Ações Executadas:\n| Ciclo | DIGITAR(google chrome) | TECLA(chrome) | DIGITAR(https://x.com/home) | TECLA(chrome) | DIGITAR(https://x.com/home) | TECLA(tab) | DIGITAR(https://x.com/post-title) | TECLA(chrome) | DIGITAR(https://x.com/home) | DIGITAR(https://x.com/posts/comment-title) |\n|-------|------------------------|----------------|-------------------------------|----------------|------------------------------|------------|--------------------------------------|----------------|------------------------------|----------------                  |"
+  },
+  {
+    "ts": 1774193045,
+    "hora": "12:24:05",
+    "tipo": "erro",
+    "msg": "Formato inválido — tentativa 1/3",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193045,
+    "hora": "12:24:05",
+    "tipo": "info",
+    "msg": "── Ciclo 8/99 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193045,
+    "hora": "12:24:05",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: DIGITAR(google chrome), TECLA(chrome), DIGITAR(https://x.com/home)\n  Ciclo 2: TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab)\n  Ciclo 3: DIGITAR(chrome), TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab)\n  Ciclo 4: TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab), DIGITAR(https://x.com/post-title)\n  Ciclo 5: TECLA(chrome), DIGITAR(https://x.com/home), DIGITAR(https://x.com/post-title), DIGITAR(https://x.com/posts/comment-title)\n\nErro no último ciclo: erro: você respondeu isto:\nTabela das Ações Executadas:\n| Ciclo | DIGITAR(google chrome) | TECLA(chrome) | DIGITAR(https://x.com/home) | TECLA(chrome) | DIGITAR(https://x.com/home) | TECLA(tab) | DIGITAR(https://x.com/post-title) | TECLA(chrome) | DIGITAR(https://x.com/home) | DIGITAR(https://x.com/post-title) | DIGITAR(https://x.com/posts/comment-title) |\n|-------|------------------------|----------------|-------------------------------|----------------|------------------------------|------------|--------------------------------------|----------------|------------------------------|----------------------------------|------------------------------------|\n\nNova Captura de Tela:\n\nTabela das Ações Executadas:\n| Ciclo | DIGITAR(google chrome) | TECLA(chrome) | DIGITAR(https://x.com/home) | TECLA(chrome) | DIGITAR(https://x.com/home) | TECLA(tab) | DIGITAR(https://x.com/post-title) | TECLA(chrome) | DIGITAR(https://x.com/home) | DIGITAR(https://x.com/posts/comment-title) |\n|-------|------------------------|----------------|-------------------------------|----------------|------------------------------|------------|--------------------------------------|----------------|------------------------------|----------------                  |\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada.\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
+  },
+  {
+    "ts": 1774193102,
+    "hora": "12:25:02",
+    "tipo": "resposta",
+    "msg": "IA respondeu",
+    "detalhe": "TECLA(win)\nDIGITAR(google chrome)\nTECLA(chrome)\n\nTECLA(win)\nDIGITAR(https://x.com/home)\nTECLA(tab)\n\nTECLA(win)\nDIGITAR(https://x.com/post-title)"
+  },
+  {
+    "ts": 1774193102,
+    "hora": "12:25:02",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: TECLA(win)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193102,
+    "hora": "12:25:02",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: DIGITAR(google chrome)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193102,
+    "hora": "12:25:02",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: TECLA(chrome)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193102,
+    "hora": "12:25:02",
+    "tipo": "info",
+    "msg": "3 ação(ões) reconhecida(s) — executando...",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193102,
+    "hora": "12:25:02",
+    "tipo": "acao",
+    "msg": "Tecla: win",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193102,
+    "hora": "12:25:02",
+    "tipo": "acao",
+    "msg": "Digitar: \"google chrome\"",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193103,
+    "hora": "12:25:03",
+    "tipo": "acao",
+    "msg": "Tecla: chrome",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193104,
+    "hora": "12:25:04",
+    "tipo": "info",
+    "msg": "── Ciclo 9/99 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193104,
+    "hora": "12:25:04",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: DIGITAR(google chrome), TECLA(chrome), DIGITAR(https://x.com/home)\n  Ciclo 2: TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab)\n  Ciclo 3: DIGITAR(chrome), TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab)\n  Ciclo 4: TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab), DIGITAR(https://x.com/post-title)\n  Ciclo 5: TECLA(chrome), DIGITAR(https://x.com/home), DIGITAR(https://x.com/post-title), DIGITAR(https://x.com/posts/comment-title)\n  Ciclo 6: TECLA(win), DIGITAR(google chrome), TECLA(chrome)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
+  },
+  {
+    "ts": 1774193125,
+    "hora": "12:25:25",
+    "tipo": "resposta",
+    "msg": "IA respondeu",
+    "detalhe": "1. DIGITAR(google chrome), TECLA(chrome), DIGITAR(https://x.com/home)\n2. TECLA(tab), DIGITAR(https://x.com/post-title)\n3. TECLA(tab), DIGITAR(https://x.com/posts/comment-title)"
+  },
+  {
+    "ts": 1774193125,
+    "hora": "12:25:25",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: DIGITAR(google chrome), TECLA(chrome), DIGITAR(https://x.com/home)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193125,
+    "hora": "12:25:25",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: TECLA(tab), DIGITAR(https://x.com/post-title)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193125,
+    "hora": "12:25:25",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: TECLA(tab), DIGITAR(https://x.com/posts/comment-title)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193125,
+    "hora": "12:25:25",
+    "tipo": "info",
+    "msg": "3 ação(ões) reconhecida(s) — executando...",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193125,
+    "hora": "12:25:25",
+    "tipo": "acao",
+    "msg": "Digitar: \"google chrome), TECLA(chrome), DIGITAR(https://x.com/home\"",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193128,
+    "hora": "12:25:28",
+    "tipo": "acao",
+    "msg": "Tecla: tab), DIGITAR(https://x.com/post-title",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193128,
+    "hora": "12:25:28",
+    "tipo": "acao",
+    "msg": "Tecla: tab), DIGITAR(https://x.com/posts/comment-title",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193129,
+    "hora": "12:25:29",
+    "tipo": "info",
+    "msg": "── Ciclo 10/99 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193129,
+    "hora": "12:25:29",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: DIGITAR(google chrome), TECLA(chrome), DIGITAR(https://x.com/home)\n  Ciclo 2: TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab)\n  Ciclo 3: DIGITAR(chrome), TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab)\n  Ciclo 4: TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab), DIGITAR(https://x.com/post-title)\n  Ciclo 5: TECLA(chrome), DIGITAR(https://x.com/home), DIGITAR(https://x.com/post-title), DIGITAR(https://x.com/posts/comment-title)\n  Ciclo 6: TECLA(win), DIGITAR(google chrome), TECLA(chrome)\n  Ciclo 7: DIGITAR(google chrome), TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab), DIGITAR(https://x.com/post-title), TECLA(tab), DIGITAR(https://x.com/posts/comment-title)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
+  },
+  {
+    "ts": 1774193158,
+    "hora": "12:25:58",
+    "tipo": "resposta",
+    "msg": "IA respondeu",
+    "detalhe": "1. TECLA(win) — abre o menu\n2. DIGITAR(google chrome)\n3. TECLA(chrome), DIGITAR(https://x.com/home)\n4. TECLA(tab), DIGITAR(https://x.com/post-title)\n5. TECLA(tab), DIGITAR(https://x.com/posts/comment-title)"
+  },
+  {
+    "ts": 1774193158,
+    "hora": "12:25:58",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: TECLA(win)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193158,
+    "hora": "12:25:58",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: DIGITAR(google chrome)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193158,
+    "hora": "12:25:58",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: TECLA(chrome), DIGITAR(https://x.com/home)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193158,
+    "hora": "12:25:58",
+    "tipo": "info",
+    "msg": "3 ação(ões) reconhecida(s) — executando...",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193158,
+    "hora": "12:25:58",
+    "tipo": "acao",
+    "msg": "Tecla: win",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193158,
+    "hora": "12:25:58",
+    "tipo": "acao",
+    "msg": "Digitar: \"google chrome\"",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193160,
+    "hora": "12:26:00",
+    "tipo": "acao",
+    "msg": "Tecla: chrome), DIGITAR(https://x.com/home",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193160,
+    "hora": "12:26:00",
+    "tipo": "info",
+    "msg": "── Ciclo 11/99 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774193160,
+    "hora": "12:26:00",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: DIGITAR(google chrome), TECLA(chrome), DIGITAR(https://x.com/home)\n  Ciclo 2: TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab)\n  Ciclo 3: DIGITAR(chrome), TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab)\n  Ciclo 4: TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab), DIGITAR(https://x.com/post-title)\n  Ciclo 5: TECLA(chrome), DIGITAR(https://x.com/home), DIGITAR(https://x.com/post-title), DIGITAR(https://x.com/posts/comment-title)\n  Ciclo 6: TECLA(win), DIGITAR(google chrome), TECLA(chrome)\n  Ciclo 7: DIGITAR(google chrome), TECLA(chrome), DIGITAR(https://x.com/home), TECLA(tab), DIGITAR(https://x.com/post-title), TECLA(tab), DIGITAR(https://x.com/posts/comment-title)\n  Ciclo 8: TECLA(win), DIGITAR(google chrome), TECLA(chrome), DIGITAR(https://x.com/home)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
   }
 ]
