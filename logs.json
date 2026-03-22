@@ -1,75 +1,5 @@
 [
   {
-    "ts": 1774212942,
-    "hora": "17:55:42",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 2: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774212942,
-    "hora": "17:55:42",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 3: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774212942,
-    "hora": "17:55:42",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 4: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774212942,
-    "hora": "17:55:42",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 5: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774212942,
-    "hora": "17:55:42",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 6: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774212942,
-    "hora": "17:55:42",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 7: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774212942,
-    "hora": "17:55:42",
-    "tipo": "erro",
-    "msg": "Formato inválido — tentativa 1/3",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774212942,
-    "hora": "17:55:42",
-    "tipo": "info",
-    "msg": "── Ciclo 9/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774212942,
-    "hora": "17:55:42",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 2: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(alt), DIGITAR(tab), TECLA(enter), DIGITAR(https://x.com/home)\n  Ciclo 3: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(alt), DIGITAR(tab), TECLA(enter), DIGITAR(https://x.com/home)\n  Ciclo 4: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(alt), DIGITAR(tab), TECLA(enter), DIGITAR(https://x.com/home)\n  Ciclo 5: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(https://x.com/home), TECLA(alt), DIGITAR(tab), TECLA(enter), DIGITAR(<nome do post>), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(alt), DIGITAR(tab), TECLA(enter), DIGITAR(<nome do comentário>)\n  Ciclo 6: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(alt), DIGITAR(tab), TECLA(enter), DIGITAR(https://x.com/home), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), DIGITAR(https://x.com/home)\n  Ciclo 7: TECLA(win), DIGITAR(chrome), TECLA(enter)\n\nErro no último ciclo: erro: você respondeu isto:\nCiclo 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\nCiclo 2: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(alt), DIGITAR(tab), TECLA(enter), DIGITAR(https://x.com/home)\nCiclo 3: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(alt), DIGITAR(tab), TECLA(enter), DIGITAR(https://x.com/home)\nCiclo 4: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(alt), DIGITAR(tab), TECLA(enter), DIGITAR(https://x.com/home)\nCiclo 5: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), DIGITAR(https://x.com/home)\nCiclo 6: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(alt), DIGITAR(tab), TECLA(enter), DIGITAR(https://x.com/home), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), DIGITAR(<nome do comentário>)\nCiclo 7: TECLA(win), DIGITAR(chrome), TECLA(enter)\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada.\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774213006,
-    "hora": "17:56:46",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "DIGITAR(https://x.com/home)\nTECLA(win)"
-  },
-  {
     "ts": 1774213006,
     "hora": "17:56:46",
     "tipo": "info",
@@ -1398,5 +1328,75 @@
     "tipo": "hb",
     "msg": "Sistema OK — 18:31:41",
     "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:31"
+  },
+  {
+    "ts": 1774215131,
+    "hora": "18:32:11",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:32:11",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:32"
+  },
+  {
+    "ts": 1774215161,
+    "hora": "18:32:41",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:32:41",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:32"
+  },
+  {
+    "ts": 1774215191,
+    "hora": "18:33:11",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:33:11",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:33"
+  },
+  {
+    "ts": 1774215221,
+    "hora": "18:33:41",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:33:41",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:33"
+  },
+  {
+    "ts": 1774215251,
+    "hora": "18:34:11",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:34:11",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:34"
+  },
+  {
+    "ts": 1774215281,
+    "hora": "18:34:41",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:34:41",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:34"
+  },
+  {
+    "ts": 1774215311,
+    "hora": "18:35:11",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:35:11",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:35"
+  },
+  {
+    "ts": 1774215341,
+    "hora": "18:35:41",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:35:41",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:35"
+  },
+  {
+    "ts": 1774215371,
+    "hora": "18:36:11",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:36:11",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:36"
+  },
+  {
+    "ts": 1774215401,
+    "hora": "18:36:41",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:36:41",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:36"
   }
 ]
