@@ -62,7 +62,11 @@
     box-shadow: 0 0 8px var(--green);
     animation: pulse 2s ease-in-out infinite;
   }
-  .dot.offline { background: var(--red); box-shadow: 0 0 8px var(--red); animation: none; }
+  .dot.offline {
+    background: var(--red);
+    box-shadow: 0 0 8px var(--red);
+    animation: none;
+  }
 
   @keyframes pulse {
     0%,100% { opacity: 1; }
@@ -72,7 +76,7 @@
   .status-bar {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
     font-size: 11px;
     color: var(--muted);
   }
@@ -91,10 +95,10 @@
     font-size: 11px;
     transition: background .15s;
   }
-  .btn:hover { background: #1e2330; }
+  .btn:hover  { background: #1e2330; }
   .btn.active { background: #1a2a1a; border-color: var(--green); color: var(--green); }
 
-  /* ── Filtros ── */
+  /* ── Toolbar / filtros ── */
   .toolbar {
     display: flex;
     align-items: center;
@@ -118,19 +122,19 @@
     background: transparent;
     font-family: var(--font-mono);
   }
-  .chip:hover   { border-color: #3a4060; color: var(--text); }
-  .chip.on      { color: #fff; border-color: transparent; }
-  .chip.on.info     { background: #1a2535; color: var(--blue); border-color: var(--blue); }
+  .chip:hover { border-color: #3a4060; color: var(--text); }
+
+  .chip.on.info     { background: #1a2535; color: var(--blue);   border-color: var(--blue); }
   .chip.on.acao     { background: #251e35; color: var(--purple); border-color: var(--purple); }
-  .chip.on.envio    { background: #1e2535; color: var(--blue); border-color: var(--blue); }
-  .chip.on.resposta { background: #1a2535; color: #7dd3fc; border-color: #7dd3fc; }
-  .chip.on.ok       { background: #0f2318; color: var(--green); border-color: var(--green); }
-  .chip.on.erro     { background: #2a1010; color: var(--red); border-color: var(--red); }
+  .chip.on.envio    { background: #1e2535; color: var(--blue);   border-color: var(--blue); }
+  .chip.on.resposta { background: #1a2535; color: #7dd3fc;       border-color: #7dd3fc; }
+  .chip.on.ok       { background: #0f2318; color: var(--green);  border-color: var(--green); }
+  .chip.on.erro     { background: #2a1010; color: var(--red);    border-color: var(--red); }
   .chip.on.espera   { background: #2a2010; color: var(--yellow); border-color: var(--yellow); }
   .chip.on.hb       { background: #2a1018; color: var(--orange); border-color: var(--orange); }
   .chip.on.timer    { background: #1a1a2a; color: var(--purple); border-color: var(--purple); }
 
-  /* ── Log list ── */
+  /* ── Lista de logs ── */
   main {
     flex: 1;
     padding: 12px 24px;
@@ -139,16 +143,21 @@
 
   .log-entry {
     display: grid;
-    grid-template-columns: 80px 90px 1fr;
+    grid-template-columns: 80px 100px 1fr;
     gap: 0 12px;
     padding: 7px 0;
     border-bottom: 1px solid #111318;
     line-height: 1.5;
     animation: fadeIn .2s ease;
   }
-  @keyframes fadeIn { from { opacity:0; transform: translateY(4px); } to { opacity:1; transform: none; } }
 
-  .log-time  { color: var(--muted); white-space: nowrap; }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: none; }
+  }
+
+  .log-time { color: var(--muted); white-space: nowrap; }
+
   .log-badge {
     display: inline-flex;
     align-items: center;
@@ -161,6 +170,7 @@
     height: 18px;
     align-self: start;
     margin-top: 2px;
+    white-space: nowrap;
   }
 
   .badge-info     { background: #1a2535; color: var(--blue); }
@@ -173,7 +183,7 @@
   .badge-hb       { background: #2a1018; color: var(--orange); }
   .badge-timer    { background: #1a1a2a; color: var(--purple); }
 
-  .log-body { word-break: break-word; }
+  .log-body  { word-break: break-word; }
   .log-msg   { color: var(--text); }
 
   .log-detail {
@@ -198,9 +208,11 @@
     font-size: 11px;
     color: var(--muted);
     background: var(--surface);
+    flex-wrap: wrap;
+    gap: 8px;
   }
 
-  #contador { color: var(--text); }
+  #ngrok-url { color: var(--muted); word-break: break-all; }
 
   /* ── Empty state ── */
   .empty {
@@ -230,22 +242,22 @@
   <div class="status-bar">
     <span id="status-text">conectando...</span>
     <span id="ultima-att">—</span>
-    <button class="btn" id="btn-auto" onclick="toggleAuto()">⟳ auto</button>
+    <button class="btn active" id="btn-auto" onclick="toggleAuto()">⟳ auto</button>
     <button class="btn" onclick="buscarLogs()">atualizar</button>
   </div>
 </header>
 
 <div class="toolbar">
   <span class="filter-label">filtrar:</span>
-  <button class="chip on info"     data-tipo="info"     onclick="toggleFiltro(this)">info</button>
-  <button class="chip on acao"     data-tipo="acao"     onclick="toggleFiltro(this)">ação</button>
-  <button class="chip on envio"    data-tipo="envio"    onclick="toggleFiltro(this)">envio</button>
-  <button class="chip on resposta" data-tipo="resposta" onclick="toggleFiltro(this)">resposta</button>
-  <button class="chip on ok"       data-tipo="ok"       onclick="toggleFiltro(this)">ok</button>
-  <button class="chip on erro"     data-tipo="erro"     onclick="toggleFiltro(this)">erro</button>
-  <button class="chip on espera"   data-tipo="espera"   onclick="toggleFiltro(this)">espera</button>
-  <button class="chip on hb"       data-tipo="hb"       onclick="toggleFiltro(this)">heartbeat</button>
-  <button class="chip on timer"    data-tipo="timer"    onclick="toggleFiltro(this)">timer</button>
+  <button class="chip on info"     data-tipo="info"     onclick="toggleFiltro(this)">ℹ info</button>
+  <button class="chip on acao"     data-tipo="acao"     onclick="toggleFiltro(this)">🖱 ação</button>
+  <button class="chip on envio"    data-tipo="envio"    onclick="toggleFiltro(this)">📤 envio</button>
+  <button class="chip on resposta" data-tipo="resposta" onclick="toggleFiltro(this)">📥 resposta</button>
+  <button class="chip on ok"       data-tipo="ok"       onclick="toggleFiltro(this)">✓ ok</button>
+  <button class="chip on erro"     data-tipo="erro"     onclick="toggleFiltro(this)">✗ erro</button>
+  <button class="chip on espera"   data-tipo="espera"   onclick="toggleFiltro(this)">⏳ espera</button>
+  <button class="chip on hb"       data-tipo="hb"       onclick="toggleFiltro(this)">💓 heartbeat</button>
+  <button class="chip on timer"    data-tipo="timer"    onclick="toggleFiltro(this)">⏰ timer</button>
 </div>
 
 <main id="lista">
@@ -257,13 +269,13 @@
 
 <footer>
   <span>últimas <span id="contador">0</span> entradas</span>
-  <span id="ngrok-url" style="color: var(--muted)">—</span>
+  <span id="ngrok-url">—</span>
   <span id="proxima-att">—</span>
 </footer>
 
 <script>
-// ── Estado ─────────────────────────────────────────────────────
-let NGROK_URL   = "";
+// ── Estado ────────────────────────────────────────────────────
+let NGROK_URL     = "";
 let autoAtualizar = true;
 let intervaloAuto = null;
 let filtrosAtivos = new Set([
@@ -271,27 +283,26 @@ let filtrosAtivos = new Set([
 ]);
 
 const ICONES = {
-  info: "ℹ", acao: "🖱", envio: "📤", resposta: "📥",
-  ok: "✓", erro: "✗", espera: "⏳", hb: "💓", timer: "⏰"
+  info:"ℹ", acao:"🖱", envio:"📤", resposta:"📥",
+  ok:"✓", erro:"✗", espera:"⏳", hb:"💓", timer:"⏰"
 };
 
-// ── Carrega ngrok_url.json do GitHub Pages ──────────────────────
+// ── Carrega ngrok_url.json do GitHub Pages ────────────────────
 async function carregarNgrokUrl() {
   try {
-    // Busca o arquivo do mesmo diretório do site
     const r = await fetch("ngrok_url.json?t=" + Date.now());
     const d = await r.json();
     NGROK_URL = d.url.replace(/\/$/, "") + "/logs";
-    document.getElementById("ngrok-url").textContent = d.url;
-    document.getElementById("ngrok-url").title = "Atualizado: " + d.atualizado;
+    document.getElementById("ngrok-url").textContent =
+      "🔗 " + d.url + "  (att: " + d.atualizado + ")";
     return true;
   } catch (e) {
-    document.getElementById("ngrok-url").textContent = "ngrok_url.json não encontrado";
+    document.getElementById("ngrok-url").textContent = "⚠ ngrok_url.json não encontrado";
     return false;
   }
 }
 
-// ── Busca os logs no servidor ngrok ────────────────────────────
+// ── Busca logs no servidor ngrok ──────────────────────────────
 async function buscarLogs() {
   if (!NGROK_URL) {
     const ok = await carregarNgrokUrl();
@@ -299,7 +310,11 @@ async function buscarLogs() {
   }
 
   try {
-    const r = await fetch(NGROK_URL + "?t=" + Date.now());
+    const r = await fetch(NGROK_URL + "?t=" + Date.now(), {
+      headers: {
+        "ngrok-skip-browser-warning": "true"  // pula a página de aviso do ngrok
+      }
+    });
     if (!r.ok) throw new Error("HTTP " + r.status);
     const logs = await r.json();
     renderizar(logs);
@@ -307,18 +322,18 @@ async function buscarLogs() {
     document.getElementById("ultima-att").textContent =
       "att " + new Date().toLocaleTimeString("pt-BR");
 
-    // Recarrega a URL do ngrok a cada busca (pode ter renovado)
+    // Recarrega a URL — pode ter renovado
     carregarNgrokUrl();
+
   } catch (e) {
     setOffline(e.message);
-    // Tenta recarregar a URL — pode ter mudado
     await carregarNgrokUrl();
   }
 }
 
-// ── Renderiza a lista de logs ───────────────────────────────────
+// ── Renderiza a lista ─────────────────────────────────────────
 function renderizar(logs) {
-  const lista  = document.getElementById("lista");
+  const lista    = document.getElementById("lista");
   const visiveis = logs.filter(l => filtrosAtivos.has(l.tipo));
 
   document.getElementById("contador").textContent = visiveis.length;
@@ -331,23 +346,24 @@ function renderizar(logs) {
     return;
   }
 
-  lista.innerHTML = visiveis.reverse().map(l => {
+  // Mais recente no topo
+  lista.innerHTML = [...visiveis].reverse().map(l => {
     const icone  = ICONES[l.tipo] || "•";
     const detalhe = l.detalhe
-      ? `<div class="log-detail">${escHtml(l.detalhe)}</div>`
+      ? `<div class="log-detail">${esc(l.detalhe)}</div>`
       : "";
     return `<div class="log-entry">
-      <span class="log-time">${escHtml(l.hora)}</span>
-      <span class="log-badge badge-${escHtml(l.tipo)}">${icone} ${escHtml(l.tipo.toUpperCase())}</span>
+      <span class="log-time">${esc(l.hora)}</span>
+      <span class="log-badge badge-${esc(l.tipo)}">${icone} ${esc(l.tipo.toUpperCase())}</span>
       <div class="log-body">
-        <div class="log-msg">${escHtml(l.msg)}</div>
+        <div class="log-msg">${esc(l.msg)}</div>
         ${detalhe}
       </div>
     </div>`;
   }).join("");
 }
 
-// ── Status online / offline ─────────────────────────────────────
+// ── Online / Offline ──────────────────────────────────────────
 function setOnline() {
   document.getElementById("dot").classList.remove("offline");
   const st = document.getElementById("status-text");
@@ -362,11 +378,10 @@ function setOffline(motivo) {
   st.classList.add("offline");
 }
 
-// ── Auto-atualização ────────────────────────────────────────────
+// ── Auto-atualização a cada 10s ───────────────────────────────
 function toggleAuto() {
   autoAtualizar = !autoAtualizar;
-  const btn = document.getElementById("btn-auto");
-  btn.classList.toggle("active", autoAtualizar);
+  document.getElementById("btn-auto").classList.toggle("active", autoAtualizar);
   if (autoAtualizar) {
     iniciarAuto();
   } else {
@@ -378,19 +393,18 @@ function toggleAuto() {
 function iniciarAuto() {
   clearInterval(intervaloAuto);
   let restante = 10;
-  document.getElementById("proxima-att").textContent = `próx. att: ${restante}s`;
+  document.getElementById("proxima-att").textContent = `próx: ${restante}s`;
   intervaloAuto = setInterval(() => {
     restante--;
-    document.getElementById("proxima-att").textContent = `próx. att: ${restante}s`;
+    document.getElementById("proxima-att").textContent = `próx: ${restante}s`;
     if (restante <= 0) {
       restante = 10;
       buscarLogs();
     }
   }, 1000);
-  document.getElementById("btn-auto").classList.add("active");
 }
 
-// ── Filtros ─────────────────────────────────────────────────────
+// ── Filtros ───────────────────────────────────────────────────
 function toggleFiltro(chip) {
   const tipo = chip.dataset.tipo;
   if (filtrosAtivos.has(tipo)) {
@@ -403,14 +417,14 @@ function toggleFiltro(chip) {
   buscarLogs();
 }
 
-// ── Utilitário ──────────────────────────────────────────────────
-function escHtml(s) {
+// ── Escape HTML ───────────────────────────────────────────────
+function esc(s) {
   return String(s || "")
     .replace(/&/g,"&amp;").replace(/</g,"&lt;")
     .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 }
 
-// ── Init ────────────────────────────────────────────────────────
+// ── Init ──────────────────────────────────────────────────────
 carregarNgrokUrl().then(buscarLogs);
 iniciarAuto();
 </script>
