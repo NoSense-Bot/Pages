@@ -17,7 +17,7 @@
     --blue:      #5b9cf6;
     --purple:    #a78bfa;
     --orange:    #fb923c;
-    --font-mono: "JetBrains Mono", "Fira Code", "Cascadia Code", monospace;
+    --mono:      "JetBrains Mono", "Fira Code", "Cascadia Code", monospace;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -25,7 +25,7 @@
   body {
     background: var(--bg);
     color: var(--text);
-    font-family: var(--font-mono);
+    font-family: var(--mono);
     font-size: 13px;
     min-height: 100vh;
     display: flex;
@@ -43,6 +43,8 @@
     position: sticky;
     top: 0;
     z-index: 10;
+    gap: 12px;
+    flex-wrap: wrap;
   }
 
   .brand {
@@ -52,7 +54,6 @@
     font-size: 15px;
     font-weight: 600;
     color: #fff;
-    letter-spacing: .02em;
   }
 
   .dot {
@@ -61,24 +62,19 @@
     background: var(--green);
     box-shadow: 0 0 8px var(--green);
     animation: pulse 2s ease-in-out infinite;
+    flex-shrink: 0;
   }
-  .dot.offline {
-    background: var(--red);
-    box-shadow: 0 0 8px var(--red);
-    animation: none;
-  }
+  .dot.offline { background: var(--red); box-shadow: 0 0 8px var(--red); animation: none; }
 
-  @keyframes pulse {
-    0%,100% { opacity: 1; }
-    50%      { opacity: .4; }
-  }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.35} }
 
   .status-bar {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 14px;
     font-size: 11px;
     color: var(--muted);
+    flex-wrap: wrap;
   }
 
   #status-text { color: var(--green); }
@@ -91,14 +87,14 @@
     padding: 5px 14px;
     border-radius: 6px;
     cursor: pointer;
-    font-family: var(--font-mono);
+    font-family: var(--mono);
     font-size: 11px;
     transition: background .15s;
   }
   .btn:hover  { background: #1e2330; }
   .btn.active { background: #1a2a1a; border-color: var(--green); color: var(--green); }
 
-  /* ── Toolbar / filtros ── */
+  /* ── Toolbar ── */
   .toolbar {
     display: flex;
     align-items: center;
@@ -120,43 +116,35 @@
     color: var(--muted);
     transition: all .15s;
     background: transparent;
-    font-family: var(--font-mono);
+    font-family: var(--mono);
   }
   .chip:hover { border-color: #3a4060; color: var(--text); }
 
-  .chip.on.info     { background: #1a2535; color: var(--blue);   border-color: var(--blue); }
-  .chip.on.acao     { background: #251e35; color: var(--purple); border-color: var(--purple); }
-  .chip.on.envio    { background: #1e2535; color: var(--blue);   border-color: var(--blue); }
-  .chip.on.resposta { background: #1a2535; color: #7dd3fc;       border-color: #7dd3fc; }
-  .chip.on.ok       { background: #0f2318; color: var(--green);  border-color: var(--green); }
-  .chip.on.erro     { background: #2a1010; color: var(--red);    border-color: var(--red); }
-  .chip.on.espera   { background: #2a2010; color: var(--yellow); border-color: var(--yellow); }
-  .chip.on.hb       { background: #2a1018; color: var(--orange); border-color: var(--orange); }
-  .chip.on.timer    { background: #1a1a2a; color: var(--purple); border-color: var(--purple); }
+  .chip.on.info     { background:#1a2535; color:var(--blue);   border-color:var(--blue);   }
+  .chip.on.acao     { background:#251e35; color:var(--purple); border-color:var(--purple); }
+  .chip.on.envio    { background:#1e2535; color:var(--blue);   border-color:var(--blue);   }
+  .chip.on.resposta { background:#1a2535; color:#7dd3fc;       border-color:#7dd3fc;       }
+  .chip.on.ok       { background:#0f2318; color:var(--green);  border-color:var(--green);  }
+  .chip.on.erro     { background:#2a1010; color:var(--red);    border-color:var(--red);    }
+  .chip.on.espera   { background:#2a2010; color:var(--yellow); border-color:var(--yellow); }
+  .chip.on.hb       { background:#2a1018; color:var(--orange); border-color:var(--orange); }
+  .chip.on.timer    { background:#1a1a2a; color:var(--purple); border-color:var(--purple); }
 
-  /* ── Lista de logs ── */
-  main {
-    flex: 1;
-    padding: 12px 24px;
-    overflow-y: auto;
-  }
+  /* ── Lista ── */
+  main { flex:1; padding: 12px 24px; overflow-y: auto; }
 
   .log-entry {
     display: grid;
-    grid-template-columns: 80px 100px 1fr;
+    grid-template-columns: 80px 105px 1fr;
     gap: 0 12px;
     padding: 7px 0;
     border-bottom: 1px solid #111318;
     line-height: 1.5;
     animation: fadeIn .2s ease;
   }
+  @keyframes fadeIn { from{opacity:0;transform:translateY(4px)} to{opacity:1;transform:none} }
 
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(4px); }
-    to   { opacity: 1; transform: none; }
-  }
-
-  .log-time { color: var(--muted); white-space: nowrap; }
+  .log-time  { color: var(--muted); white-space: nowrap; }
 
   .log-badge {
     display: inline-flex;
@@ -173,15 +161,15 @@
     white-space: nowrap;
   }
 
-  .badge-info     { background: #1a2535; color: var(--blue); }
-  .badge-acao     { background: #251e35; color: var(--purple); }
-  .badge-envio    { background: #1e2535; color: var(--blue); }
-  .badge-resposta { background: #1a2535; color: #7dd3fc; }
-  .badge-ok       { background: #0f2318; color: var(--green); }
-  .badge-erro     { background: #2a1010; color: var(--red); }
-  .badge-espera   { background: #2a2010; color: var(--yellow); }
-  .badge-hb       { background: #2a1018; color: var(--orange); }
-  .badge-timer    { background: #1a1a2a; color: var(--purple); }
+  .badge-info     { background:#1a2535; color:var(--blue);   }
+  .badge-acao     { background:#251e35; color:var(--purple); }
+  .badge-envio    { background:#1e2535; color:var(--blue);   }
+  .badge-resposta { background:#1a2535; color:#7dd3fc;       }
+  .badge-ok       { background:#0f2318; color:var(--green);  }
+  .badge-erro     { background:#2a1010; color:var(--red);    }
+  .badge-espera   { background:#2a2010; color:var(--yellow); }
+  .badge-hb       { background:#2a1018; color:var(--orange); }
+  .badge-timer    { background:#1a1a2a; color:var(--purple); }
 
   .log-body  { word-break: break-word; }
   .log-msg   { color: var(--text); }
@@ -212,21 +200,14 @@
     gap: 8px;
   }
 
-  #ngrok-url { color: var(--muted); word-break: break-all; }
-
-  /* ── Empty state ── */
+  /* ── Empty ── */
   .empty {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 60vh;
-    gap: 12px;
-    color: var(--muted);
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    height: 60vh; gap: 12px; color: var(--muted);
   }
   .empty-icon { font-size: 40px; }
 
-  /* ── Scrollbar ── */
   ::-webkit-scrollbar { width: 6px; }
   ::-webkit-scrollbar-track { background: var(--bg); }
   ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
@@ -237,10 +218,10 @@
 <header>
   <div class="brand">
     <div class="dot" id="dot"></div>
-    AI Agent
+    AI Agent — Logs
   </div>
   <div class="status-bar">
-    <span id="status-text">conectando...</span>
+    <span id="status-text">carregando...</span>
     <span id="ultima-att">—</span>
     <button class="btn active" id="btn-auto" onclick="toggleAuto()">⟳ auto</button>
     <button class="btn" onclick="buscarLogs()">atualizar</button>
@@ -268,14 +249,12 @@
 </main>
 
 <footer>
-  <span>últimas <span id="contador">0</span> entradas</span>
-  <span id="ngrok-url">—</span>
+  <span>mostrando <span id="contador">0</span> entradas</span>
   <span id="proxima-att">—</span>
 </footer>
 
 <script>
 // ── Estado ────────────────────────────────────────────────────
-let NGROK_URL     = "";
 let autoAtualizar = true;
 let intervaloAuto = null;
 let filtrosAtivos = new Set([
@@ -287,51 +266,23 @@ const ICONES = {
   ok:"✓", erro:"✗", espera:"⏳", hb:"💓", timer:"⏰"
 };
 
-// ── Carrega ngrok_url.json do GitHub Pages ────────────────────
-async function carregarNgrokUrl() {
-  try {
-    const r = await fetch("ngrok_url.json?t=" + Date.now());
-    const d = await r.json();
-    NGROK_URL = d.url.replace(/\/$/, "") + "/logs";
-    document.getElementById("ngrok-url").textContent =
-      "🔗 " + d.url + "  (att: " + d.atualizado + ")";
-    return true;
-  } catch (e) {
-    document.getElementById("ngrok-url").textContent = "⚠ ngrok_url.json não encontrado";
-    return false;
-  }
-}
-
-// ── Busca logs no servidor ngrok ──────────────────────────────
+// ── Busca logs.json do mesmo diretório do site ────────────────
 async function buscarLogs() {
-  if (!NGROK_URL) {
-    const ok = await carregarNgrokUrl();
-    if (!ok) return setOffline("sem URL do ngrok");
-  }
-
   try {
-    const r = await fetch(NGROK_URL + "?t=" + Date.now(), {
-      headers: {
-        "ngrok-skip-browser-warning": "true"  // pula a página de aviso do ngrok
-      }
-    });
+    // Cache-bust para sempre pegar a versão mais recente
+    const r = await fetch("logs.json?t=" + Date.now());
     if (!r.ok) throw new Error("HTTP " + r.status);
     const logs = await r.json();
     renderizar(logs);
     setOnline();
     document.getElementById("ultima-att").textContent =
       "att " + new Date().toLocaleTimeString("pt-BR");
-
-    // Recarrega a URL — pode ter renovado
-    carregarNgrokUrl();
-
   } catch (e) {
     setOffline(e.message);
-    await carregarNgrokUrl();
   }
 }
 
-// ── Renderiza a lista ─────────────────────────────────────────
+// ── Renderiza ─────────────────────────────────────────────────
 function renderizar(logs) {
   const lista    = document.getElementById("lista");
   const visiveis = logs.filter(l => filtrosAtivos.has(l.tipo));
@@ -348,7 +299,7 @@ function renderizar(logs) {
 
   // Mais recente no topo
   lista.innerHTML = [...visiveis].reverse().map(l => {
-    const icone  = ICONES[l.tipo] || "•";
+    const icone   = ICONES[l.tipo] || "•";
     const detalhe = l.detalhe
       ? `<div class="log-detail">${esc(l.detalhe)}</div>`
       : "";
@@ -378,13 +329,12 @@ function setOffline(motivo) {
   st.classList.add("offline");
 }
 
-// ── Auto-atualização a cada 10s ───────────────────────────────
+// ── Auto-atualização a cada 30s ───────────────────────────────
 function toggleAuto() {
   autoAtualizar = !autoAtualizar;
   document.getElementById("btn-auto").classList.toggle("active", autoAtualizar);
-  if (autoAtualizar) {
-    iniciarAuto();
-  } else {
+  if (autoAtualizar) iniciarAuto();
+  else {
     clearInterval(intervaloAuto);
     document.getElementById("proxima-att").textContent = "auto: pausado";
   }
@@ -392,40 +342,32 @@ function toggleAuto() {
 
 function iniciarAuto() {
   clearInterval(intervaloAuto);
-  let restante = 10;
+  let restante = 30;
   document.getElementById("proxima-att").textContent = `próx: ${restante}s`;
   intervaloAuto = setInterval(() => {
     restante--;
     document.getElementById("proxima-att").textContent = `próx: ${restante}s`;
-    if (restante <= 0) {
-      restante = 10;
-      buscarLogs();
-    }
+    if (restante <= 0) { restante = 30; buscarLogs(); }
   }, 1000);
 }
 
 // ── Filtros ───────────────────────────────────────────────────
 function toggleFiltro(chip) {
   const tipo = chip.dataset.tipo;
-  if (filtrosAtivos.has(tipo)) {
-    filtrosAtivos.delete(tipo);
-    chip.classList.remove("on");
-  } else {
-    filtrosAtivos.add(tipo);
-    chip.classList.add("on");
-  }
+  if (filtrosAtivos.has(tipo)) { filtrosAtivos.delete(tipo); chip.classList.remove("on"); }
+  else                         { filtrosAtivos.add(tipo);    chip.classList.add("on");    }
   buscarLogs();
 }
 
 // ── Escape HTML ───────────────────────────────────────────────
 function esc(s) {
-  return String(s || "")
+  return String(s||"")
     .replace(/&/g,"&amp;").replace(/</g,"&lt;")
     .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 }
 
 // ── Init ──────────────────────────────────────────────────────
-carregarNgrokUrl().then(buscarLogs);
+buscarLogs();
 iniciarAuto();
 </script>
 </body>
