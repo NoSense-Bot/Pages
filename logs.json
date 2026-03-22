@@ -1,131 +1,5 @@
 [
   {
-    "ts": 1774201870,
-    "hora": "14:51:10",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "TECLA(win)\nDIGITAR(chrome)\nTECLA(enter)\nTECLA(chrome)"
-  },
-  {
-    "ts": 1774201870,
-    "hora": "14:51:10",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774201870,
-    "hora": "14:51:10",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: DIGITAR(chrome)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774201870,
-    "hora": "14:51:10",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(enter)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774201870,
-    "hora": "14:51:10",
-    "tipo": "info",
-    "msg": "3 ação(ões) reconhecida(s) — executando...",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774201870,
-    "hora": "14:51:10",
-    "tipo": "acao",
-    "msg": "Tecla: win",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774201870,
-    "hora": "14:51:10",
-    "tipo": "acao",
-    "msg": "Digitar: \"chrome\"",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774201871,
-    "hora": "14:51:11",
-    "tipo": "acao",
-    "msg": "Tecla: enter",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774201871,
-    "hora": "14:51:11",
-    "tipo": "info",
-    "msg": "── Ciclo 2/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774201872,
-    "hora": "14:51:12",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774201903,
-    "hora": "14:51:43",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "1. TECLA(win), DIGITAR(chrome), TECLA(enter) - A ação não produzirá resultado, pois ela já foi executada na última tentativa.\n2. TECLA(ctrl), DIGITAR(r) - Execute o comando de rolagem para subir uma linha no navegador Google Chrome.\n3. TECLA(tab), DIGITAR(https://x.com/home) - Selecione a página inicial do site x.com e execute-a."
-  },
-  {
-    "ts": 1774201903,
-    "hora": "14:51:43",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win), DIGITAR(chrome), TECLA(enter)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774201903,
-    "hora": "14:51:43",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(ctrl), DIGITAR(r)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774201903,
-    "hora": "14:51:43",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(tab), DIGITAR(https://x.com/home)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774201903,
-    "hora": "14:51:43",
-    "tipo": "info",
-    "msg": "3 ação(ões) reconhecida(s) — executando...",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774201903,
-    "hora": "14:51:43",
-    "tipo": "acao",
-    "msg": "Tecla: win), DIGITAR(chrome), TECLA(enter",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774201904,
-    "hora": "14:51:44",
-    "tipo": "acao",
-    "msg": "Tecla: ctrl), DIGITAR(r",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774201904,
-    "hora": "14:51:44",
-    "tipo": "acao",
-    "msg": "Tecla: tab), DIGITAR(https://x.com/home",
-    "detalhe": ""
-  },
-  {
     "ts": 1774201905,
     "hora": "14:51:45",
     "tipo": "info",
@@ -1398,5 +1272,131 @@
     "tipo": "envio",
     "msg": "Enviando para IA...",
     "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 2: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(ctrl), DIGITAR(r), TECLA(tab), DIGITAR(https://x.com/home)\n  Ciclo 3: DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/home), TECLA(enter)\n  Ciclo 4: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 5: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 6: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/home), TECLA(enter)\n  Ciclo 7: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 8: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/blog), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(ctrl), DIGITAR(s), TECLA(alt), DIGITAR(f4)\n  Ciclo 9: TECLA(win), DIGITAR(chrome), TECLA(enter), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/blog), TECLA(enter), TECLA(ctrl), DIGITAR(s), TECLA(alt), DIGITAR(f4), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(tab), DIGITAR(https://x.com/blog), TECLA(enter), TECLA(ctrl), DIGITAR(s), TECLA(alt), DIGITAR(f4)\n  Ciclo 10: TECLA(win), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/blog), TECLA(enter), TECLA(ctrl), DIGITAR(s), TECLA(alt), DIGITAR(f4)\n  Ciclo 11: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(ctrl), DIGITAR(r), TECLA(tab), DIGITAR(https://x.com/home)\n  Ciclo 12: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 13: TECLA(win,chrome,enter), TECLA(win,google,home), DIGITAR(r)\n  Ciclo 14: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(ctrl), DIGITAR(r), TECLA(tab), DIGITAR(https://x.com/blog), TECLA(win), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/home), TECLA(enter)\n  Ciclo 15: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/home), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(ctrl), DIGITAR(r), TECLA(tab), DIGITAR(https://x.com/blog)\n  Ciclo 16: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/blog), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(ctrl), DIGITAR(r)\n  Ciclo 17: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/blog), TECLA(enter)\n\nErro no último ciclo: erro: você respondeu isto:\n1. Tecla(win,chrome,enter\n2. Tecla(ctrl+clica o botão do mouse em enter\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada.\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
+  },
+  {
+    "ts": 1774202749,
+    "hora": "15:05:49",
+    "tipo": "resposta",
+    "msg": "IA respondeu",
+    "detalhe": "0\n\nOnde é estação, responda:\n\nOlá queixo. OVLUIZENDO ELETRENDAS\n1. ÉCUIDA.\n\nMATHE SEU usando o PARASEM efase\n2.30 aqui\n\nSele\n\nTABRIBIR"
+  },
+  {
+    "ts": 1774202749,
+    "hora": "15:05:49",
+    "tipo": "erro",
+    "msg": "Formato inválido — tentativa 2/3",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774202749,
+    "hora": "15:05:49",
+    "tipo": "info",
+    "msg": "── Ciclo 26/99 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774202749,
+    "hora": "15:05:49",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 2: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(ctrl), DIGITAR(r), TECLA(tab), DIGITAR(https://x.com/home)\n  Ciclo 3: DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/home), TECLA(enter)\n  Ciclo 4: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 5: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 6: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/home), TECLA(enter)\n  Ciclo 7: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 8: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/blog), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(ctrl), DIGITAR(s), TECLA(alt), DIGITAR(f4)\n  Ciclo 9: TECLA(win), DIGITAR(chrome), TECLA(enter), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/blog), TECLA(enter), TECLA(ctrl), DIGITAR(s), TECLA(alt), DIGITAR(f4), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(tab), DIGITAR(https://x.com/blog), TECLA(enter), TECLA(ctrl), DIGITAR(s), TECLA(alt), DIGITAR(f4)\n  Ciclo 10: TECLA(win), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/blog), TECLA(enter), TECLA(ctrl), DIGITAR(s), TECLA(alt), DIGITAR(f4)\n  Ciclo 11: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(ctrl), DIGITAR(r), TECLA(tab), DIGITAR(https://x.com/home)\n  Ciclo 12: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 13: TECLA(win,chrome,enter), TECLA(win,google,home), DIGITAR(r)\n  Ciclo 14: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(ctrl), DIGITAR(r), TECLA(tab), DIGITAR(https://x.com/blog), TECLA(win), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/home), TECLA(enter)\n  Ciclo 15: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/home), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(ctrl), DIGITAR(r), TECLA(tab), DIGITAR(https://x.com/blog)\n  Ciclo 16: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/blog), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(ctrl), DIGITAR(r)\n  Ciclo 17: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(tab), DIGITAR(https://x.com/blog), TECLA(enter)\n\nErro no último ciclo: erro: você respondeu isto:\n0\n\nOnde é estação, responda:\n\nOlá queixo. OVLUIZENDO ELETRENDAS\n1. ÉCUIDA.\n\nMATHE SEU usando o PARASEM efase\n2.30 aqui\n\nSele\n\nTABRIBIR\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada.\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
+  },
+  {
+    "ts": 1774202786,
+    "hora": "15:06:26",
+    "tipo": "resposta",
+    "msg": "IA respondeu",
+    "detalhe": "Você podemos, sej um botão. CUIDas.CUIDA as seguindo-20\nTeclipar:\nOu cli e como podesse:te demação da coragem do sistema e\n\nVLEX 30 a"
+  },
+  {
+    "ts": 1774202786,
+    "hora": "15:06:26",
+    "tipo": "erro",
+    "msg": "Formato inválido — tentativa 3/3",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774202786,
+    "hora": "15:06:26",
+    "tipo": "erro",
+    "msg": "Encerrando — formato não corrigido",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774202786,
+    "hora": "15:06:26",
+    "tipo": "hb",
+    "msg": "Sistema OK — 15:06:26",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 15:06"
+  },
+  {
+    "ts": 1774202816,
+    "hora": "15:06:56",
+    "tipo": "hb",
+    "msg": "Sistema OK — 15:06:56",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 15:06"
+  },
+  {
+    "ts": 1774202846,
+    "hora": "15:07:26",
+    "tipo": "hb",
+    "msg": "Sistema OK — 15:07:26",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 15:07"
+  },
+  {
+    "ts": 1774202876,
+    "hora": "15:07:56",
+    "tipo": "hb",
+    "msg": "Sistema OK — 15:07:56",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 15:07"
+  },
+  {
+    "ts": 1774202906,
+    "hora": "15:08:26",
+    "tipo": "hb",
+    "msg": "Sistema OK — 15:08:26",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 15:08"
+  },
+  {
+    "ts": 1774202937,
+    "hora": "15:08:57",
+    "tipo": "hb",
+    "msg": "Sistema OK — 15:08:57",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 15:08"
+  },
+  {
+    "ts": 1774202967,
+    "hora": "15:09:27",
+    "tipo": "hb",
+    "msg": "Sistema OK — 15:09:27",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 15:09"
+  },
+  {
+    "ts": 1774202997,
+    "hora": "15:09:57",
+    "tipo": "hb",
+    "msg": "Sistema OK — 15:09:57",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 15:09"
+  },
+  {
+    "ts": 1774203027,
+    "hora": "15:10:27",
+    "tipo": "hb",
+    "msg": "Sistema OK — 15:10:27",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 15:10"
+  },
+  {
+    "ts": 1774203057,
+    "hora": "15:10:57",
+    "tipo": "hb",
+    "msg": "Sistema OK — 15:10:57",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 15:10"
+  },
+  {
+    "ts": 1774203087,
+    "hora": "15:11:27",
+    "tipo": "hb",
+    "msg": "Sistema OK — 15:11:27",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 15:11"
   }
 ]
