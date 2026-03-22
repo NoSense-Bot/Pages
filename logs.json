@@ -1,75 +1,5 @@
 [
   {
-    "ts": 1774198952,
-    "hora": "14:02:32",
-    "tipo": "acao",
-    "msg": "Tecla: enter), DIGITAR(chrome), TECLA(enter",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774198952,
-    "hora": "14:02:32",
-    "tipo": "acao",
-    "msg": "Digitar: \"chrome), TECLA(enter), DIGITAR(search\"",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774198954,
-    "hora": "14:02:34",
-    "tipo": "info",
-    "msg": "── Ciclo 16/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774198954,
-    "hora": "14:02:34",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: DIGITAR(chrome), TECLA(enter), DIGITAR(https://google.com)\n  Ciclo 2: DIGITAR(chrome), TECLA(enter), DIGITAR(https://google.com)\n  Ciclo 3: TECLA(enter), DIGITAR(chrome), TECLA(enter)\n  Ciclo 4: DIGITAR(chrome), TECLA(enter), DIGITAR(chrome)\n  Ciclo 5: TECLA(enter), DIGITAR(chrome), DIGITAR(https://google.com), TECLA(enter)\n  Ciclo 6: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 7: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 8: DIGITAR(chrome), TECLA(enter), DIGITAR(chrome), TECLA(enter), DIGITAR(https://google.com), TECLA(win), DIGITAR(chrome), DIGITAR(https://google.com)\n  Ciclo 9: TECLA(win), DIGITAR(chrome), DIGITAR(https://google.com), TECLA(enter)\n  Ciclo 10: TECLA(win), DIGITAR(chrome), DIGITAR(google.com), TECLA(enter), DIGITAR(search), TECLA(enter)\n  Ciclo 11: DIGITAR(chrome), TECLA(enter), DIGITAR(chrome), TECLA(enter), DIGITAR(https://google.com), TECLA(win), DIGITAR(chrome), DIGITAR(search)\n  Ciclo 12: TECLA(win), DIGITAR(chrome), DIGITAR(https://google.com), TECLA(enter), DIGITAR(chrome), TECLA(enter), DIGITAR(chrome), TECLA(enter), DIGITAR(search)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774199000,
-    "hora": "14:03:20",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "Ações disponíveis:\n  MOVER(x,y)      — move o mouse para x,y\n  CLICAR(x,y)     — clica em x,y\n  DIGITAR(texto)  — digita texto no campo focado\n  TECLA(tecla)    — pressiona tecla: enter, tab, escape, ctrl+c, alt+f4, win\n  SCROLL(x,y,n)   — rola n vezes em x,y  (n negativo = para baixo)\n  ESPERAR(n)      — aguarde n segundos\n\nResposta CORRETA:\nTECLA(win)\nDIGITAR(chrome)"
-  },
-  {
-    "ts": 1774199000,
-    "hora": "14:03:20",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: MOVER(x,y)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774199000,
-    "hora": "14:03:20",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: CLICAR(x,y)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774199000,
-    "hora": "14:03:20",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: DIGITAR(texto)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774199000,
-    "hora": "14:03:20",
-    "tipo": "info",
-    "msg": "3 ação(ões) reconhecida(s) — executando...",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774199000,
-    "hora": "14:03:20",
-    "tipo": "erro",
-    "msg": "Erro em MOVER(x,y): invalid literal for int() with base 10: 'x'",
-    "detalhe": ""
-  },
-  {
     "ts": 1774199000,
     "hora": "14:03:20",
     "tipo": "erro",
@@ -1398,5 +1328,75 @@
     "tipo": "hb",
     "msg": "Sistema OK — 14:18:12",
     "detalhe": "Estado : Aguardando próximo horário...\nHorário: 14:18"
+  },
+  {
+    "ts": 1774199922,
+    "hora": "14:18:42",
+    "tipo": "hb",
+    "msg": "Sistema OK — 14:18:42",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 14:18"
+  },
+  {
+    "ts": 1774199953,
+    "hora": "14:19:13",
+    "tipo": "hb",
+    "msg": "Sistema OK — 14:19:13",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 14:19"
+  },
+  {
+    "ts": 1774199983,
+    "hora": "14:19:43",
+    "tipo": "hb",
+    "msg": "Sistema OK — 14:19:43",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 14:19"
+  },
+  {
+    "ts": 1774200013,
+    "hora": "14:20:13",
+    "tipo": "hb",
+    "msg": "Sistema OK — 14:20:13",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 14:20"
+  },
+  {
+    "ts": 1774200043,
+    "hora": "14:20:43",
+    "tipo": "hb",
+    "msg": "Sistema OK — 14:20:43",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 14:20"
+  },
+  {
+    "ts": 1774200073,
+    "hora": "14:21:13",
+    "tipo": "hb",
+    "msg": "Sistema OK — 14:21:13",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 14:21"
+  },
+  {
+    "ts": 1774200103,
+    "hora": "14:21:43",
+    "tipo": "hb",
+    "msg": "Sistema OK — 14:21:43",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 14:21"
+  },
+  {
+    "ts": 1774200133,
+    "hora": "14:22:13",
+    "tipo": "hb",
+    "msg": "Sistema OK — 14:22:13",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 14:22"
+  },
+  {
+    "ts": 1774200163,
+    "hora": "14:22:43",
+    "tipo": "hb",
+    "msg": "Sistema OK — 14:22:43",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 14:22"
+  },
+  {
+    "ts": 1774200193,
+    "hora": "14:23:13",
+    "tipo": "hb",
+    "msg": "Sistema OK — 14:23:13",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 14:23"
   }
 ]
