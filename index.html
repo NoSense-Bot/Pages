@@ -23,43 +23,40 @@
   body{background:var(--bg);color:var(--text);font-family:var(--mono);
        font-size:13px;min-height:100vh;display:flex;flex-direction:column}
 
-  /* Header */
+  /* ── Header ── */
   header{display:flex;align-items:center;justify-content:space-between;
          padding:14px 24px;border-bottom:1px solid var(--border);
          background:var(--surface);position:sticky;top:0;z-index:10;
          gap:12px;flex-wrap:wrap}
-  .brand{display:flex;align-items:center;gap:10px;font-size:15px;
-         font-weight:600;color:#fff}
+  .brand{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:600;color:#fff}
   .dot{width:9px;height:9px;border-radius:50%;background:var(--green);
        box-shadow:0 0 8px var(--green);animation:pulse 2s ease-in-out infinite;flex-shrink:0}
-  .dot.offline{background:var(--red);box-shadow:0 0 8px var(--red);animation:none}
-  .dot.fallback{background:var(--yellow);box-shadow:0 0 8px var(--yellow)}
+  .dot.offline {background:var(--red);   box-shadow:0 0 8px var(--red);   animation:none}
+  .dot.fallback{background:var(--yellow);box-shadow:0 0 8px var(--yellow);animation:none}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
-  .status-bar{display:flex;align-items:center;gap:12px;font-size:11px;
-              color:var(--muted);flex-wrap:wrap}
+
+  .status-bar{display:flex;align-items:center;gap:12px;font-size:11px;color:var(--muted);flex-wrap:wrap}
   #status-text{color:var(--green)}
-  #status-text.offline{color:var(--red)}
+  #status-text.offline {color:var(--red)}
   #status-text.fallback{color:var(--yellow)}
 
-  /* Fonte badge de modo */
   .mode-badge{font-size:10px;padding:2px 8px;border-radius:4px;font-weight:600}
-  .mode-live    {background:#0f2318;color:var(--green);border:1px solid var(--green)}
+  .mode-live    {background:#0f2318;color:var(--green); border:1px solid var(--green)}
   .mode-fallback{background:#2a2010;color:var(--yellow);border:1px solid var(--yellow)}
-  .mode-offline {background:#2a1010;color:var(--red);border:1px solid var(--red)}
+  .mode-offline {background:#2a1010;color:var(--red);   border:1px solid var(--red)}
 
   .btn{background:var(--border);border:1px solid #2a2f40;color:var(--text);
        padding:5px 14px;border-radius:6px;cursor:pointer;font-family:var(--mono);
        font-size:11px;transition:background .15s}
-  .btn:hover{background:#1e2330}
+  .btn:hover {background:#1e2330}
   .btn.active{background:#1a2a1a;border-color:var(--green);color:var(--green)}
 
-  /* Toolbar */
+  /* ── Toolbar ── */
   .toolbar{display:flex;align-items:center;gap:8px;padding:10px 24px;
            border-bottom:1px solid var(--border);background:var(--surface);flex-wrap:wrap}
   .filter-label{color:var(--muted);font-size:11px;margin-right:4px}
-  .chip{padding:3px 10px;border-radius:20px;border:1px solid var(--border);
-        cursor:pointer;font-size:11px;color:var(--muted);transition:all .15s;
-        background:transparent;font-family:var(--mono)}
+  .chip{padding:3px 10px;border-radius:20px;border:1px solid var(--border);cursor:pointer;
+        font-size:11px;color:var(--muted);transition:all .15s;background:transparent;font-family:var(--mono)}
   .chip:hover{border-color:#3a4060;color:var(--text)}
   .chip.on.info    {background:#1a2535;color:var(--blue);  border-color:var(--blue)}
   .chip.on.acao    {background:#251e35;color:var(--purple);border-color:var(--purple)}
@@ -71,13 +68,33 @@
   .chip.on.hb      {background:#2a1018;color:var(--orange);border-color:var(--orange)}
   .chip.on.timer   {background:#1a1a2a;color:var(--purple);border-color:var(--purple)}
 
-  /* Lista */
+  /* ── Painel de tela ── */
+  #painel-tela{
+    display:none;
+    padding:12px 24px;
+    border-bottom:1px solid var(--border);
+    background:#0a0c10;
+  }
+  .tela-header{
+    display:flex;align-items:center;gap:12px;
+    margin-bottom:8px;font-size:11px;color:var(--muted);
+  }
+  #tela-status{color:var(--muted)}
+  #tela-status.on{color:var(--green)}
+  #tela-ms{color:var(--muted)}
+  #tela-img{
+    width:100%;max-width:960px;display:block;
+    border-radius:6px;border:1px solid var(--border);
+    image-rendering:auto;
+  }
+
+  /* ── Lista de logs ── */
   main{flex:1;padding:12px 24px;overflow-y:auto}
   .log-entry{display:grid;grid-template-columns:80px 105px 1fr;gap:0 12px;
              padding:7px 0;border-bottom:1px solid #111318;line-height:1.5;
              animation:fadeIn .2s ease}
   @keyframes fadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
-  .log-time{color:var(--muted);white-space:nowrap}
+  .log-time {color:var(--muted);white-space:nowrap}
   .log-badge{display:inline-flex;align-items:center;justify-content:center;
              font-size:10px;padding:1px 7px;border-radius:4px;font-weight:600;
              letter-spacing:.05em;height:18px;align-self:start;margin-top:2px;white-space:nowrap}
@@ -90,18 +107,18 @@
   .badge-espera  {background:#2a2010;color:var(--yellow)}
   .badge-hb      {background:#2a1018;color:var(--orange)}
   .badge-timer   {background:#1a1a2a;color:var(--purple)}
-  .log-body{word-break:break-word}
-  .log-msg{color:var(--text)}
+  .log-body {word-break:break-word}
+  .log-msg  {color:var(--text)}
   .log-detail{margin-top:5px;padding:6px 10px;background:#0a0c10;
               border-left:2px solid var(--border);border-radius:0 4px 4px 0;
               color:var(--muted);font-size:12px;white-space:pre-wrap;word-break:break-all}
 
-  /* Footer */
+  /* ── Footer ── */
   footer{padding:8px 24px;border-top:1px solid var(--border);display:flex;
          align-items:center;justify-content:space-between;font-size:11px;
          color:var(--muted);background:var(--surface);flex-wrap:wrap;gap:8px}
 
-  /* Empty */
+  /* ── Empty ── */
   .empty{display:flex;flex-direction:column;align-items:center;justify-content:center;
          height:60vh;gap:12px;color:var(--muted)}
   .empty-icon{font-size:40px}
@@ -122,6 +139,7 @@
     <span class="mode-badge mode-offline" id="mode-badge">offline</span>
     <span id="status-text" class="offline">conectando...</span>
     <span id="ultima-att">—</span>
+    <button class="btn" id="btn-tela"  onclick="toggleTela()">📺 tela</button>
     <button class="btn active" id="btn-auto" onclick="toggleAuto()">⟳ auto</button>
     <button class="btn" onclick="atualizar()">atualizar</button>
   </div>
@@ -140,6 +158,16 @@
   <button class="chip on timer"    data-tipo="timer"    onclick="toggleFiltro(this)">⏰ timer</button>
 </div>
 
+<!-- Painel de tela — só aparece ao clicar em 📺 tela -->
+<div id="painel-tela">
+  <div class="tela-header">
+    <span id="tela-status">aguardando...</span>
+    <span id="tela-ms"></span>
+    <span style="color:var(--muted)">640×360 · escala de cinza · atualiza a cada 5s</span>
+  </div>
+  <img id="tela-img" alt="tela da IA">
+</div>
+
 <main id="lista">
   <div class="empty">
     <div class="empty-icon">⟳</div>
@@ -155,10 +183,13 @@
 
 <script>
 // ── Estado ────────────────────────────────────────────────────
-let ngrokUrl      = "";          // preenchido pelo ngrok_url.json
-let autoAtualizar = true;
-let intervaloAuto = null;
-let filtrosAtivos = new Set([
+let ngrokUrl       = "";
+let autoAtualizar  = true;
+let intervaloAuto  = null;
+let telaAtiva      = false;
+let telaLoop       = null;
+let intervalo_seg  = 10;
+let filtrosAtivos  = new Set([
   "info","acao","envio","resposta","ok","erro","espera","hb","timer"
 ]);
 
@@ -167,14 +198,14 @@ const ICONES = {
   ok:"✓",erro:"✗",espera:"⏳",hb:"💓",timer:"⏰"
 };
 
-// ── Carrega a URL do ngrok do GitHub Pages ────────────────────
+// ── Carrega URL do ngrok ──────────────────────────────────────
 async function carregarNgrokUrl() {
   try {
     const r = await fetch("ngrok_url.json?t=" + Date.now());
     const d = await r.json();
-    ngrokUrl = d.url.replace(/\/$/, "") + "/logs";
+    ngrokUrl = d.url.replace(/\/$/, "");
     document.getElementById("fonte-info").textContent =
-      "🔗 ngrok ativo · att: " + d.atualizado;
+      "🔗 " + d.url + " · " + d.atualizado;
     return true;
   } catch {
     ngrokUrl = "";
@@ -182,58 +213,78 @@ async function carregarNgrokUrl() {
   }
 }
 
-// ── Tenta buscar pelo ngrok (tempo real) ──────────────────────
-async function buscarViaNgrok() {
-  if (!ngrokUrl) return null;
-  try {
-    const r = await fetch(ngrokUrl + "?t=" + Date.now(), {
-      headers: { "ngrok-skip-browser-warning": "true" },
-      signal: AbortSignal.timeout(8000)   // desiste em 8s
-    });
-    if (!r.ok) throw new Error("HTTP " + r.status);
-    return await r.json();
-  } catch {
-    return null;
-  }
+// ── Fetch com header ngrok ────────────────────────────────────
+async function ngrokFetch(path, timeout = 8000) {
+  const r = await fetch(ngrokUrl + path + "?t=" + Date.now(), {
+    headers: { "ngrok-skip-browser-warning": "true" },
+    signal:  AbortSignal.timeout(timeout)
+  });
+  if (!r.ok) throw new Error("HTTP " + r.status);
+  return r;
 }
 
-// ── Fallback: lê logs.json estático do GitHub Pages ──────────
+// ── Busca logs ────────────────────────────────────────────────
+async function buscarViaNgrok() {
+  if (!ngrokUrl) return null;
+  try   { return await (await ngrokFetch("/logs")).json(); }
+  catch { return null; }
+}
+
 async function buscarViaFallback() {
   try {
     const r = await fetch("logs.json?t=" + Date.now());
-    if (!r.ok) throw new Error("HTTP " + r.status);
+    if (!r.ok) throw new Error();
     return await r.json();
-  } catch {
-    return null;
-  }
+  } catch { return null; }
 }
 
-// ── Atualização principal: tenta ngrok, cai no fallback ───────
 async function atualizar() {
   await carregarNgrokUrl();
-
-  // 1ª tentativa — ngrok (tempo real)
   let logs  = await buscarViaNgrok();
   let fonte = "live";
-
-  // 2ª tentativa — logs.json estático (backup a cada 5 min)
-  if (!logs) {
-    logs  = await buscarViaFallback();
-    fonte = "fallback";
-  }
-
-  if (!logs) {
-    setModo("offline");
-    return;
-  }
-
+  if (!logs) { logs = await buscarViaFallback(); fonte = "fallback"; }
+  if (!logs) { setModo("offline"); return; }
   renderizar(logs);
   setModo(fonte);
   document.getElementById("ultima-att").textContent =
     "att " + new Date().toLocaleTimeString("pt-BR");
 }
 
-// ── Renderiza ─────────────────────────────────────────────────
+// ── Stream de tela ────────────────────────────────────────────
+function toggleTela() {
+  telaAtiva = !telaAtiva;
+  document.getElementById("painel-tela").style.display = telaAtiva ? "block" : "none";
+  document.getElementById("btn-tela").classList.toggle("active", telaAtiva);
+  if (telaAtiva) { atualizarFrame(); telaLoop = setInterval(atualizarFrame, 5000); }
+  else           { clearInterval(telaLoop); }
+}
+
+async function atualizarFrame() {
+  if (!ngrokUrl || !telaAtiva) return;
+  const inicio = Date.now();
+  try {
+    const r    = await ngrokFetch("/screen");
+    const blob = await r.blob();
+    const url  = URL.createObjectURL(blob);
+    const img  = document.getElementById("tela-img");
+
+    if (img.src.startsWith("blob:")) URL.revokeObjectURL(img.src);
+    img.src = url;
+
+    const ms = Date.now() - inicio;
+    const st = document.getElementById("tela-status");
+    st.textContent = "online";
+    st.className   = "on";
+    document.getElementById("tela-ms").textContent = ms + "ms";
+
+  } catch (e) {
+    const st = document.getElementById("tela-status");
+    st.textContent = "sem sinal — " + e.message;
+    st.className   = "";
+  }
+}
+
+// ── Renderiza logs ────────────────────────────────────────────
 function renderizar(logs) {
   const lista    = document.getElementById("lista");
   const visiveis = logs.filter(l => filtrosAtivos.has(l.tipo));
@@ -261,42 +312,40 @@ function renderizar(logs) {
   }).join("");
 }
 
-// ── Indicadores de modo ───────────────────────────────────────
+// ── Modo online/fallback/offline ──────────────────────────────
 function setModo(modo) {
   const dot    = document.getElementById("dot");
   const badge  = document.getElementById("mode-badge");
   const status = document.getElementById("status-text");
-  const fonte  = document.getElementById("fonte-info");
 
   dot.className    = "dot";
   badge.className  = "mode-badge";
   status.className = "";
 
   if (modo === "live") {
-    badge.textContent  = "● live";
+    badge.textContent = "● live";
     badge.classList.add("mode-live");
     status.textContent = "online · tempo real";
-    status.classList.add = "";
+    intervalo_seg = 10;
   } else if (modo === "fallback") {
     dot.classList.add("fallback");
-    badge.textContent  = "◐ backup";
+    badge.textContent = "◐ backup";
     badge.classList.add("mode-fallback");
-    status.textContent = "fallback · JSON estático (atualiza a cada 5 min)";
+    status.textContent = "fallback · JSON estático";
     status.classList.add("fallback");
-    fonte.textContent  = "📄 lendo logs.json do GitHub Pages";
+    document.getElementById("fonte-info").textContent = "📄 lendo logs.json do GitHub Pages";
+    intervalo_seg = 60;
   } else {
     dot.classList.add("offline");
-    badge.textContent  = "○ offline";
+    badge.textContent = "○ offline";
     badge.classList.add("mode-offline");
-    status.textContent = "offline — sem conexão";
+    status.textContent = "offline";
     status.classList.add("offline");
+    intervalo_seg = 60;
   }
 }
 
 // ── Auto-atualização ──────────────────────────────────────────
-// Live: tenta a cada 10s  |  Fallback/offline: a cada 60s
-let intervalo_seg = 10;
-
 function toggleAuto() {
   autoAtualizar = !autoAtualizar;
   document.getElementById("btn-auto").classList.toggle("active", autoAtualizar);
@@ -316,9 +365,6 @@ function iniciarAuto() {
     document.getElementById("proxima-att").textContent = `próx: ${restante}s`;
     if (restante <= 0) {
       await atualizar();
-      // Ajusta intervalo conforme modo
-      const badge = document.getElementById("mode-badge").textContent;
-      intervalo_seg = badge.includes("live") ? 10 : 60;
       restante = intervalo_seg;
     }
   }, 1000);
