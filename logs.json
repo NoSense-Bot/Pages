@@ -1,75 +1,5 @@
 [
   {
-    "ts": 1774362252,
-    "hora": "11:24:12",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://gemini.google.com/ , descreva na caixa de texto para criar uma imagem melancoliga gotica de um cenario feudal com legenda emo, clique com o botão direito do mouse e copie essa imagem, acesse https://www.youtube.com/@TalDoGuh/posts e cole a imagem no campo de postagem, acesse https://www.tiktok.com/tiktokstudio/upload?from=webapp e cole a imagem no campo de upload, acesse https://www.instagram.com/ e poste a imagem como um novo post, \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 2: MOVER(50,2), DIGITAR(Esperança), TECLA(ctrl+alt+f4)\n  Ciclo 3: MOVER(-40,5), DIGITAR(FusãoMágoa), TECLA(ctrl+alt+f4), DIGITAR(EmojiCaos), MOVER(50,-5), TECLA(enter)\n  Ciclo 4: TECLA(win), DIGITAR(google), TECLA(enter)\n  Ciclo 5: DIGITAR(O Círculo das Sombras), MOVER(-40,5), TECLA(enter)\n  Ciclo 6: MOVER(-40,5), DIGITAR(VermelhoNegro), TECLA(win), DIGITAR(SombraDoce), MOVER(50,-5), TECLA(enter)\n  Ciclo 7: TECLA(win), DIGITAR(ChatSombraBrasil1), TECLA(enter)\n  Ciclo 8: TECLA(win), DIGITAR(chrome), MOVER(-40,2)\n  Ciclo 9: TECLA(win), DIGITAR(chrome), TECLA(enter), MOVER(-40,5), DIGITAR(Vazio), TECLA(ctrl+alt+f4), MOVER(50,2), DIGITAR(EmojiCaos), TECLA(win), DIGITAR(O Círculo das Sombras)\n  Ciclo 10: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 11: TECLA(win), DIGITAR(chrome), TECLA(enter), MOVER(-40,2), DIGITAR(Esperança), TECLA(ctrl+alt+f4), MOVER(-40,5), DIGITAR(FusãoMágoa), TECLA(ctrl+alt+f4), DIGITAR(EmojiCaos), MOVER(50,-5), TECLA(enter)\n  Ciclo 12: TECLA(win), DIGITAR(chrome), MOVER(-40,2)\n  Ciclo 13: TECLA(win), DIGITAR(ChatSombraBrasil), MOVER(-40,2), DIGITAR(O Círculo das Sombras)\n  Ciclo 14: TECLA(win), DIGITAR(ChatSombraBrasil), MOVER(-40,2)\n  Ciclo 15: TECLA(win), DIGITAR(chrome), MOVER(-40,2), TECLA(win), DIGITAR(google), TECLA(enter), MOVER(50,-5), DIGITAR(EmojiCaos)\n  Ciclo 16: MOVER(40,2), DIGITAR(O Círculo das Sombras), MOVER(-40,5), DIGITAR(Vazio)\n  Ciclo 17: DIGITAR(O Círculo das Sombras), MOVER(-40,5), TECLA(enter), TECLA(win), DIGITAR(google), TECLA(enter), MOVER(10,1)\n  Ciclo 18: TECLA(win), DIGITAR(chrome), MOVER(0,0)\n  Ciclo 19: TECLA(win), DIGITAR(google), TECLA(enter), MOVER(0,0), DIGITAR(O Círculo das Sombras), TECLA(win), DIGITAR(chrome), TECLA(enter), MOVER(-40,15)\n  Ciclo 20: TECLA(enter)\n  Ciclo 21: TECLA(win), DIGITAR(ChatSombraBrasil1), TECLA(enter), MOVER(50,2), DIGITAR(Vazio), TECLA(enter), TECLA(ctrl+alt+f4)\n\nErro no último ciclo: erro: você respondeu isto:\nPara analisar o código HTML (noção: Responda SOMENTE 4 linhas, não é o responder emo.\nNÃO vai será no CSS. Para CAPTUXIER para uma tarefa de um código HTML/CSS a\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada.\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774362284,
-    "hora": "11:24:44",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "PIDO, o naveiração dele é um código CSS (não deve o que estrutura de cadei: para Código HTML/CSS"
-  },
-  {
-    "ts": 1774362284,
-    "hora": "11:24:44",
-    "tipo": "erro",
-    "msg": "Formato inválido — tentativa 3/3",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774362284,
-    "hora": "11:24:44",
-    "tipo": "erro",
-    "msg": "Encerrando — formato não corrigido",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774362284,
-    "hora": "11:24:44",
-    "tipo": "hb",
-    "msg": "Sistema OK — 11:24:44",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:24"
-  },
-  {
-    "ts": 1774362314,
-    "hora": "11:25:14",
-    "tipo": "hb",
-    "msg": "Sistema OK — 11:25:14",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:25"
-  },
-  {
-    "ts": 1774362344,
-    "hora": "11:25:44",
-    "tipo": "hb",
-    "msg": "Sistema OK — 11:25:44",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:25"
-  },
-  {
-    "ts": 1774362374,
-    "hora": "11:26:14",
-    "tipo": "hb",
-    "msg": "Sistema OK — 11:26:14",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:26"
-  },
-  {
-    "ts": 1774362404,
-    "hora": "11:26:44",
-    "tipo": "hb",
-    "msg": "Sistema OK — 11:26:44",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:26"
-  },
-  {
-    "ts": 1774362434,
-    "hora": "11:27:14",
-    "tipo": "hb",
-    "msg": "Sistema OK — 11:27:14",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:27"
-  },
-  {
     "ts": 1774362464,
     "hora": "11:27:44",
     "tipo": "hb",
@@ -1398,5 +1328,75 @@
     "tipo": "hb",
     "msg": "Sistema OK — 11:55:47",
     "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:55"
+  },
+  {
+    "ts": 1774364177,
+    "hora": "11:56:17",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:56:17",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:56"
+  },
+  {
+    "ts": 1774364207,
+    "hora": "11:56:47",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:56:47",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:56"
+  },
+  {
+    "ts": 1774364237,
+    "hora": "11:57:17",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:57:17",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:57"
+  },
+  {
+    "ts": 1774364267,
+    "hora": "11:57:47",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:57:47",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:57"
+  },
+  {
+    "ts": 1774364297,
+    "hora": "11:58:17",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:58:17",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:58"
+  },
+  {
+    "ts": 1774364327,
+    "hora": "11:58:47",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:58:47",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:58"
+  },
+  {
+    "ts": 1774364357,
+    "hora": "11:59:17",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:59:17",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:59"
+  },
+  {
+    "ts": 1774364387,
+    "hora": "11:59:47",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:59:47",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:59"
+  },
+  {
+    "ts": 1774364417,
+    "hora": "12:00:17",
+    "tipo": "hb",
+    "msg": "Sistema OK — 12:00:17",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 12:00"
+  },
+  {
+    "ts": 1774364447,
+    "hora": "12:00:47",
+    "tipo": "hb",
+    "msg": "Sistema OK — 12:00:47",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 12:00"
   }
 ]
