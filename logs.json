@@ -1,75 +1,5 @@
 [
   {
-    "ts": 1774385520,
-    "hora": "17:52:00",
-    "tipo": "info",
-    "msg": "── Ciclo 4/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774385521,
-    "hora": "17:52:01",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 2: TECLA(win), DIGITAR(messenger), TECLA(enter)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774385541,
-    "hora": "17:52:21",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "1. TECLA(win), DIGITAR(ctrl+c), TECLA(enter)\n2. TECLA(win), DIGITAR(paste), TECLA(enter)\n3. TECLA(win), DIGITAR(cmd+k), TECLA(enter)"
-  },
-  {
-    "ts": 1774385541,
-    "hora": "17:52:21",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win), DIGITAR(ctrl+c), TECLA(enter)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774385541,
-    "hora": "17:52:21",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win), DIGITAR(paste), TECLA(enter)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774385541,
-    "hora": "17:52:21",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win), DIGITAR(cmd+k), TECLA(enter)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774385541,
-    "hora": "17:52:21",
-    "tipo": "info",
-    "msg": "3 ação(ões) reconhecida(s) — executando...",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774385541,
-    "hora": "17:52:21",
-    "tipo": "acao",
-    "msg": "Tecla: win), DIGITAR(ctrl+c), TECLA(enter",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774385541,
-    "hora": "17:52:21",
-    "tipo": "acao",
-    "msg": "Tecla: win), DIGITAR(paste), TECLA(enter",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774385542,
-    "hora": "17:52:22",
-    "tipo": "acao",
-    "msg": "Tecla: win), DIGITAR(cmd+k), TECLA(enter",
-    "detalhe": ""
-  },
-  {
     "ts": 1774385542,
     "hora": "17:52:22",
     "tipo": "info",
@@ -1398,5 +1328,75 @@
     "tipo": "hb",
     "msg": "Sistema OK — 18:31:21",
     "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:31"
+  },
+  {
+    "ts": 1774387911,
+    "hora": "18:31:51",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:31:51",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:31"
+  },
+  {
+    "ts": 1774387941,
+    "hora": "18:32:21",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:32:21",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:32"
+  },
+  {
+    "ts": 1774387971,
+    "hora": "18:32:51",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:32:51",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:32"
+  },
+  {
+    "ts": 1774388001,
+    "hora": "18:33:21",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:33:21",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:33"
+  },
+  {
+    "ts": 1774388031,
+    "hora": "18:33:51",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:33:51",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:33"
+  },
+  {
+    "ts": 1774388061,
+    "hora": "18:34:21",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:34:21",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:34"
+  },
+  {
+    "ts": 1774388091,
+    "hora": "18:34:51",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:34:51",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:34"
+  },
+  {
+    "ts": 1774388121,
+    "hora": "18:35:21",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:35:21",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:35"
+  },
+  {
+    "ts": 1774388151,
+    "hora": "18:35:51",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:35:51",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:35"
+  },
+  {
+    "ts": 1774388182,
+    "hora": "18:36:22",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:36:22",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:36"
   }
 ]
