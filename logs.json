@@ -1,96 +1,5 @@
 [
   {
-    "ts": 1774220035,
-    "hora": "19:53:55",
-    "tipo": "info",
-    "msg": "2 ação(ões) reconhecida(s) — executando...",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774220035,
-    "hora": "19:53:55",
-    "tipo": "acao",
-    "msg": "Digitar: \"chrome), TECLA(https://google.com\"",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774220037,
-    "hora": "19:53:57",
-    "tipo": "acao",
-    "msg": "Digitar: \"<i>query</i>, texto\"",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774220038,
-    "hora": "19:53:58",
-    "tipo": "info",
-    "msg": "── Ciclo 7/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774220038,
-    "hora": "19:53:58",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: DIGITAR(google), TECLA(chrome), DIGITAR(https://x.com/home)\n  Ciclo 2: DIGITAR(chrome), TECLA(https://x.com/home), TECLA(down-comments)\n  Ciclo 3: DIGITAR(chrome), TECLA(https://google.com), DIGITAR(<i>query</i>, texto)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774220063,
-    "hora": "19:54:23",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "Ciclo 1: DIGITAR(chrome), TECLA(https://x.com/home)\nCiclo 2: DIGITAR(chrome), TECLA(comments-section), TECLA(down-comments)\nCiclo 3: DIGITAR(chrome), TECLA(https://google.com), DIGITAR(<i>query</i>, texto), TECLA(enter)"
-  },
-  {
-    "ts": 1774220063,
-    "hora": "19:54:23",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 1: DIGITAR'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774220063,
-    "hora": "19:54:23",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 2: DIGITAR'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774220063,
-    "hora": "19:54:23",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 3: DIGITAR'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774220063,
-    "hora": "19:54:23",
-    "tipo": "erro",
-    "msg": "Formato inválido — tentativa 1/3",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774220063,
-    "hora": "19:54:23",
-    "tipo": "info",
-    "msg": "── Ciclo 8/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774220063,
-    "hora": "19:54:23",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: DIGITAR(google), TECLA(chrome), DIGITAR(https://x.com/home)\n  Ciclo 2: DIGITAR(chrome), TECLA(https://x.com/home), TECLA(down-comments)\n  Ciclo 3: DIGITAR(chrome), TECLA(https://google.com), DIGITAR(<i>query</i>, texto)\n\nErro no último ciclo: erro: você respondeu isto:\nCiclo 1: DIGITAR(chrome), TECLA(https://x.com/home)\nCiclo 2: DIGITAR(chrome), TECLA(comments-section), TECLA(down-comments)\nCiclo 3: DIGITAR(chrome), TECLA(https://google.com), DIGITAR(<i>query</i>, texto), TECLA(enter)\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada.\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774220090,
-    "hora": "19:54:50",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "1. TECLA(<i>query</i>, texto)\n2. DIGITAR(chrome), TECLA(https://google.com)\n3. DIGITAR(chrome), TECLA(down-comments)"
-  },
-  {
     "ts": 1774220090,
     "hora": "19:54:50",
     "tipo": "info",
@@ -1398,5 +1307,96 @@
     "tipo": "hb",
     "msg": "Sistema OK — 09:24:56",
     "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:24"
+  },
+  {
+    "ts": 1774355120,
+    "hora": "09:25:20",
+    "tipo": "info",
+    "msg": "Parado pelo usuário",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774355476,
+    "hora": "09:31:16",
+    "tipo": "info",
+    "msg": "Monitor 1 ativo — 768x1366 offset (-768,0)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774355476,
+    "hora": "09:31:16",
+    "tipo": "info",
+    "msg": "Sistema iniciado — CTRL+C para parar",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774355476,
+    "hora": "09:31:16",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:31:16",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:31"
+  },
+  {
+    "ts": 1774355506,
+    "hora": "09:31:46",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:31:46",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:31"
+  },
+  {
+    "ts": 1774355536,
+    "hora": "09:32:16",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:32:16",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:32"
+  },
+  {
+    "ts": 1774355566,
+    "hora": "09:32:46",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:32:46",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:32"
+  },
+  {
+    "ts": 1774355596,
+    "hora": "09:33:16",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:33:16",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:33"
+  },
+  {
+    "ts": 1774355626,
+    "hora": "09:33:46",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:33:46",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:33"
+  },
+  {
+    "ts": 1774355656,
+    "hora": "09:34:16",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:34:16",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:34"
+  },
+  {
+    "ts": 1774355686,
+    "hora": "09:34:46",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:34:46",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:34"
+  },
+  {
+    "ts": 1774355716,
+    "hora": "09:35:16",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:35:16",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:35"
+  },
+  {
+    "ts": 1774355746,
+    "hora": "09:35:46",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:35:46",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:35"
   }
 ]
