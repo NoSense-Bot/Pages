@@ -1,75 +1,5 @@
 [
   {
-    "ts": 1774367782,
-    "hora": "12:56:22",
-    "tipo": "info",
-    "msg": "── Ciclo 15/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774367782,
-    "hora": "12:56:22",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(google), TECLA(enter)\n  Ciclo 2: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(edge), TECLA(enter)\n  Ciclo 3: TECLA(win), DIGITAR(edge), TECLA(enter)\n  Ciclo 4: TECLA(win), DIGITAR(firefox), TECLA(enter)\n  Ciclo 5: TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(chrome)\n  Ciclo 6: TECLA(win), DIGITAR(edge), TECLA(enter), TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(win), DIGITAR(google), TECLA(enter), TECLA(win), DIGITAR(x.com/home), TECLA(enter)\n  Ciclo 7: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(edge), TECLA(enter), TECLA(win), DIGITAR(x.com/home), TECLA(enter)\n\nErro no último ciclo: erro: você respondeu isto:\nAção 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\nAção 2: TECLA(win), DIGITAR(x.com/home), TECLA(enter)\nAção 3: TECLA(win), DIGITAR(firefox), TECLA(enter)\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada.\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774367819,
-    "hora": "12:56:59",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "* Ação 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\n* Ação 2: TECLA(win), DIGITAR(x.com/home), TECLA(enter)\n* Ação 3: TECLA(win), DIGITAR(firefox), TECLA(enter)"
-  },
-  {
-    "ts": 1774367819,
-    "hora": "12:56:59",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'AÇÃO 1: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774367819,
-    "hora": "12:56:59",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'AÇÃO 2: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774367819,
-    "hora": "12:56:59",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'AÇÃO 3: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774367819,
-    "hora": "12:56:59",
-    "tipo": "erro",
-    "msg": "Formato inválido — tentativa 2/3",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774367819,
-    "hora": "12:56:59",
-    "tipo": "info",
-    "msg": "── Ciclo 16/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774367819,
-    "hora": "12:56:59",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(google), TECLA(enter)\n  Ciclo 2: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(edge), TECLA(enter)\n  Ciclo 3: TECLA(win), DIGITAR(edge), TECLA(enter)\n  Ciclo 4: TECLA(win), DIGITAR(firefox), TECLA(enter)\n  Ciclo 5: TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(chrome)\n  Ciclo 6: TECLA(win), DIGITAR(edge), TECLA(enter), TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(win), DIGITAR(google), TECLA(enter), TECLA(win), DIGITAR(x.com/home), TECLA(enter)\n  Ciclo 7: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(edge), TECLA(enter), TECLA(win), DIGITAR(x.com/home), TECLA(enter)\n\nErro no último ciclo: erro: você respondeu isto:\n* Ação 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\n* Ação 2: TECLA(win), DIGITAR(x.com/home), TECLA(enter)\n* Ação 3: TECLA(win), DIGITAR(firefox), TECLA(enter)\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada.\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774367852,
-    "hora": "12:57:32",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "1. TECLA(win), DIGITAR(google), TECLA(enter)\n2. TECLA(win), DIGITAR(x.com/home), TECLA(enter)\n3. TECLA(win), DIGITAR(edge), TECLA(enter)"
-  },
-  {
     "ts": 1774367852,
     "hora": "12:57:32",
     "tipo": "info",
@@ -1398,5 +1328,75 @@
     "tipo": "hb",
     "msg": "Sistema OK — 13:13:02",
     "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:13"
+  },
+  {
+    "ts": 1774368812,
+    "hora": "13:13:32",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:13:32",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:13"
+  },
+  {
+    "ts": 1774368842,
+    "hora": "13:14:02",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:14:02",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:14"
+  },
+  {
+    "ts": 1774368872,
+    "hora": "13:14:32",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:14:32",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:14"
+  },
+  {
+    "ts": 1774368902,
+    "hora": "13:15:02",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:15:02",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:15"
+  },
+  {
+    "ts": 1774368932,
+    "hora": "13:15:32",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:15:32",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:15"
+  },
+  {
+    "ts": 1774368962,
+    "hora": "13:16:02",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:16:02",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:16"
+  },
+  {
+    "ts": 1774368992,
+    "hora": "13:16:32",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:16:32",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:16"
+  },
+  {
+    "ts": 1774369022,
+    "hora": "13:17:02",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:17:02",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:17"
+  },
+  {
+    "ts": 1774369052,
+    "hora": "13:17:32",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:17:32",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:17"
+  },
+  {
+    "ts": 1774369082,
+    "hora": "13:18:02",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:18:02",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:18"
   }
 ]
