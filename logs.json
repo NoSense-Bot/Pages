@@ -1,75 +1,5 @@
 [
   {
-    "ts": 1774219947,
-    "hora": "19:52:27",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: DIGITAR(chrome)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774219947,
-    "hora": "19:52:27",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(https://x.com/home)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774219947,
-    "hora": "19:52:27",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(down-comments)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774219947,
-    "hora": "19:52:27",
-    "tipo": "info",
-    "msg": "3 ação(ões) reconhecida(s) — executando...",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774219947,
-    "hora": "19:52:27",
-    "tipo": "acao",
-    "msg": "Digitar: \"chrome\"",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774219947,
-    "hora": "19:52:27",
-    "tipo": "acao",
-    "msg": "Tecla: https://x.com/home",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774219948,
-    "hora": "19:52:28",
-    "tipo": "acao",
-    "msg": "Tecla: down-comments",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774219948,
-    "hora": "19:52:28",
-    "tipo": "info",
-    "msg": "── Ciclo 5/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774219948,
-    "hora": "19:52:28",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: DIGITAR(google), TECLA(chrome), DIGITAR(https://x.com/home)\n  Ciclo 2: DIGITAR(chrome), TECLA(https://x.com/home), TECLA(down-comments)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774219995,
-    "hora": "19:53:15",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "Esteja atento que o objetivo é:\n\n1. Abre o aplicativo Google,\n2. Acesse <https://x.com/home>,\n3. Encontre um post,\n4. Na sessão de comentários, responda algo.\n\nEmbora a tarefa já tenha sido tentada anteriormente com as etapas abaixo:\n\nCiclo 1: DIGITAR(google), TECLA(chrome), DIGITAR(https://x.com/home)\nCiclo 2: DIGITAR(chrome), TECLA(https://x.com/home), TECLA(down-comments)\n\nA tarefa ainda não foi concluída e eu preciso continuar a partir daqui. A tela atual é preta, então posso avançar com as etapas sugeridas abaixo:\n\nCiclo 3: DIGITAR(chrome), TECLA(https://google.com)"
-  },
-  {
     "ts": 1774219995,
     "hora": "19:53:15",
     "tipo": "info",
@@ -1398,5 +1328,75 @@
     "tipo": "hb",
     "msg": "Sistema OK — 09:14:55",
     "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:14"
+  },
+  {
+    "ts": 1774354525,
+    "hora": "09:15:25",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:15:25",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:15"
+  },
+  {
+    "ts": 1774354555,
+    "hora": "09:15:55",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:15:55",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:15"
+  },
+  {
+    "ts": 1774354585,
+    "hora": "09:16:25",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:16:25",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:16"
+  },
+  {
+    "ts": 1774354615,
+    "hora": "09:16:55",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:16:55",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:16"
+  },
+  {
+    "ts": 1774354645,
+    "hora": "09:17:25",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:17:25",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:17"
+  },
+  {
+    "ts": 1774354675,
+    "hora": "09:17:55",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:17:55",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:17"
+  },
+  {
+    "ts": 1774354705,
+    "hora": "09:18:25",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:18:25",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:18"
+  },
+  {
+    "ts": 1774354735,
+    "hora": "09:18:55",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:18:55",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:18"
+  },
+  {
+    "ts": 1774354765,
+    "hora": "09:19:25",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:19:25",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:19"
+  },
+  {
+    "ts": 1774354795,
+    "hora": "09:19:55",
+    "tipo": "hb",
+    "msg": "Sistema OK — 09:19:55",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:19"
   }
 ]
