@@ -1,75 +1,5 @@
 [
   {
-    "ts": 1774382121,
-    "hora": "16:55:21",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: DIGITAR(chrome), TECLA(tab), TECLA(enter)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774382121,
-    "hora": "16:55:21",
-    "tipo": "info",
-    "msg": "3 ação(ões) reconhecida(s) — executando...",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774382121,
-    "hora": "16:55:21",
-    "tipo": "acao",
-    "msg": "Digitar: \"chrome), TECLA(enter\"",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774382123,
-    "hora": "16:55:23",
-    "tipo": "acao",
-    "msg": "Digitar: \"chrome), TECLA(ctrl+v), TECLA(enter\"",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774382125,
-    "hora": "16:55:25",
-    "tipo": "acao",
-    "msg": "Digitar: \"chrome), TECLA(tab), TECLA(enter\"",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774382127,
-    "hora": "16:55:27",
-    "tipo": "info",
-    "msg": "── Ciclo 9/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774382127,
-    "hora": "16:55:27",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 2: DIGITAR(chrome), TECLA(enter), TECLA(ctrl+c)\n  Ciclo 3: DIGITAR(chrome), TECLA(enter), DIGITAR(chrome), TECLA(tab), TECLA(enter), DIGITAR(chrome), TECLA(ctrl+v)\n  Ciclo 4: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(ctrl+c), TECLA(tab), TECLA(enter), DIGITAR(chrome), DIGITAR(chrome), TECLA(ctrl+v), TECLA(enter)\n  Ciclo 5: DIGITAR(chrome), TECLA(enter), DIGITAR(chrome), TECLA(ctrl+v), TECLA(enter), DIGITAR(chrome), TECLA(tab), TECLA(enter)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774382159,
-    "hora": "16:55:59",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "1. TECLA(win), DIGITAR(chrome), TECLA(enter)\n2. DIGITAR(chrome), TECLA(tab), TECLA(enter), DIGITAR(chrome), TECLA(ctrl+v), TECLA(enter)\n3. DIGITAR(chrome), TECLA(ctrl+c), TECLA(tab), TECLA(enter), DIGITAR(chrome), TECLA(ctrl+v)"
-  },
-  {
-    "ts": 1774382159,
-    "hora": "16:55:59",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win), DIGITAR(chrome), TECLA(enter)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774382159,
-    "hora": "16:55:59",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: DIGITAR(chrome), TECLA(tab), TECLA(enter), DIGITAR(chrome), TECLA(ctrl+v), TECLA(enter)",
-    "detalhe": ""
-  },
-  {
     "ts": 1774382159,
     "hora": "16:55:59",
     "tipo": "info",
@@ -1398,5 +1328,75 @@
     "tipo": "hb",
     "msg": "Sistema OK — 17:23:49",
     "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:23"
+  },
+  {
+    "ts": 1774383859,
+    "hora": "17:24:19",
+    "tipo": "hb",
+    "msg": "Sistema OK — 17:24:19",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:24"
+  },
+  {
+    "ts": 1774383889,
+    "hora": "17:24:49",
+    "tipo": "hb",
+    "msg": "Sistema OK — 17:24:49",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:24"
+  },
+  {
+    "ts": 1774383919,
+    "hora": "17:25:19",
+    "tipo": "hb",
+    "msg": "Sistema OK — 17:25:19",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:25"
+  },
+  {
+    "ts": 1774383949,
+    "hora": "17:25:49",
+    "tipo": "hb",
+    "msg": "Sistema OK — 17:25:49",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:25"
+  },
+  {
+    "ts": 1774383979,
+    "hora": "17:26:19",
+    "tipo": "hb",
+    "msg": "Sistema OK — 17:26:19",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:26"
+  },
+  {
+    "ts": 1774384009,
+    "hora": "17:26:49",
+    "tipo": "hb",
+    "msg": "Sistema OK — 17:26:49",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:26"
+  },
+  {
+    "ts": 1774384039,
+    "hora": "17:27:19",
+    "tipo": "hb",
+    "msg": "Sistema OK — 17:27:19",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:27"
+  },
+  {
+    "ts": 1774384069,
+    "hora": "17:27:49",
+    "tipo": "hb",
+    "msg": "Sistema OK — 17:27:49",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:27"
+  },
+  {
+    "ts": 1774384099,
+    "hora": "17:28:19",
+    "tipo": "hb",
+    "msg": "Sistema OK — 17:28:19",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:28"
+  },
+  {
+    "ts": 1774384129,
+    "hora": "17:28:49",
+    "tipo": "hb",
+    "msg": "Sistema OK — 17:28:49",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:28"
   }
 ]
