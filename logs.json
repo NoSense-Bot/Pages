@@ -1,75 +1,5 @@
 [
   {
-    "ts": 1774361330,
-    "hora": "11:08:50",
-    "tipo": "acao",
-    "msg": "Mover mouse → (-40,5)  global (-808,5)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774361331,
-    "hora": "11:08:51",
-    "tipo": "acao",
-    "msg": "Tecla: enter",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774361331,
-    "hora": "11:08:51",
-    "tipo": "info",
-    "msg": "── Ciclo 11/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774361331,
-    "hora": "11:08:51",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://gemini.google.com/ , descreva na caixa de texto para criar uma imagem melancoliga gotica de um cenario feudal com legenda emo, clique com o botão direito do mouse e copie essa imagem, acesse https://www.youtube.com/@TalDoGuh/posts e cole a imagem no campo de postagem, acesse https://www.tiktok.com/tiktokstudio/upload?from=webapp e cole a imagem no campo de upload, acesse https://www.instagram.com/ e poste a imagem como um novo post, \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\n  Ciclo 2: MOVER(50,2), DIGITAR(Esperança), TECLA(ctrl+alt+f4)\n  Ciclo 3: MOVER(-40,5), DIGITAR(FusãoMágoa), TECLA(ctrl+alt+f4), DIGITAR(EmojiCaos), MOVER(50,-5), TECLA(enter)\n  Ciclo 4: TECLA(win), DIGITAR(google), TECLA(enter)\n  Ciclo 5: DIGITAR(O Círculo das Sombras), MOVER(-40,5), TECLA(enter)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774361353,
-    "hora": "11:09:13",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "1. MOVER(-40,5), DIGITAR(VermelhoNegro)\n2. TECLA(win), DIGITAR(SombraDoce)\n3. MOVER(50,-5), TECLA(enter)"
-  },
-  {
-    "ts": 1774361353,
-    "hora": "11:09:13",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: MOVER(-40,5), DIGITAR(VermelhoNegro)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774361353,
-    "hora": "11:09:13",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win), DIGITAR(SombraDoce)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774361353,
-    "hora": "11:09:13",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: MOVER(50,-5), TECLA(enter)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774361353,
-    "hora": "11:09:13",
-    "tipo": "info",
-    "msg": "3 ação(ões) reconhecida(s) — executando...",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774361353,
-    "hora": "11:09:13",
-    "tipo": "erro",
-    "msg": "Erro em MOVER(-40,5), DIGITAR(VermelhoNegro): invalid literal for int() with base 10: '5)'",
-    "detalhe": ""
-  },
-  {
     "ts": 1774361353,
     "hora": "11:09:13",
     "tipo": "acao",
@@ -1398,5 +1328,75 @@
     "tipo": "hb",
     "msg": "Sistema OK — 11:29:44",
     "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:29"
+  },
+  {
+    "ts": 1774362614,
+    "hora": "11:30:14",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:30:14",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:30"
+  },
+  {
+    "ts": 1774362644,
+    "hora": "11:30:44",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:30:44",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:30"
+  },
+  {
+    "ts": 1774362674,
+    "hora": "11:31:14",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:31:14",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:31"
+  },
+  {
+    "ts": 1774362704,
+    "hora": "11:31:44",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:31:44",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:31"
+  },
+  {
+    "ts": 1774362734,
+    "hora": "11:32:14",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:32:14",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:32"
+  },
+  {
+    "ts": 1774362764,
+    "hora": "11:32:44",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:32:44",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:32"
+  },
+  {
+    "ts": 1774362794,
+    "hora": "11:33:14",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:33:14",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:33"
+  },
+  {
+    "ts": 1774362824,
+    "hora": "11:33:44",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:33:44",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:33"
+  },
+  {
+    "ts": 1774362854,
+    "hora": "11:34:14",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:34:14",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:34"
+  },
+  {
+    "ts": 1774362884,
+    "hora": "11:34:44",
+    "tipo": "hb",
+    "msg": "Sistema OK — 11:34:44",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 11:34"
   }
 ]
