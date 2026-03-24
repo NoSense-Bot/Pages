@@ -1,75 +1,5 @@
 [
   {
-    "ts": 1774368166,
-    "hora": "13:02:46",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(google), TECLA(enter)\n  Ciclo 2: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(edge), TECLA(enter)\n  Ciclo 3: TECLA(win), DIGITAR(edge), TECLA(enter)\n  Ciclo 4: TECLA(win), DIGITAR(firefox), TECLA(enter)\n  Ciclo 5: TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(chrome)\n  Ciclo 6: TECLA(win), DIGITAR(edge), TECLA(enter), TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(win), DIGITAR(google), TECLA(enter), TECLA(win), DIGITAR(x.com/home), TECLA(enter)\n  Ciclo 7: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(edge), TECLA(enter), TECLA(win), DIGITAR(x.com/home), TECLA(enter)\n  Ciclo 8: TECLA(win), DIGITAR(google), TECLA(enter), TECLA(win), DIGITAR(x.com/home), TECLA(enter), TECLA(win), DIGITAR(edge), TECLA(enter)\n  Ciclo 9: TECLA(win), DIGITAR(edge), TECLA(enter)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774368194,
-    "hora": "13:03:14",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "Ações executadas até agora:\nCiclo 10: TECLA(win), DIGITAR(x.com/blog), TECLA(enter)\nCiclo 11: TECLA(win), DIGITAR(google), TECLA(enter)\nCiclo 12: TECLA(win), DIGITAR(firefox), TECLA(enter)"
-  },
-  {
-    "ts": 1774368194,
-    "hora": "13:03:14",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 10: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774368194,
-    "hora": "13:03:14",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 11: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774368194,
-    "hora": "13:03:14",
-    "tipo": "info",
-    "msg": "  ✗ Ignorada (desconhecida): 'CICLO 12: TECLA'",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774368194,
-    "hora": "13:03:14",
-    "tipo": "erro",
-    "msg": "Formato inválido — tentativa 1/3",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774368194,
-    "hora": "13:03:14",
-    "tipo": "info",
-    "msg": "── Ciclo 21/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774368194,
-    "hora": "13:03:14",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(google), TECLA(enter)\n  Ciclo 2: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(edge), TECLA(enter)\n  Ciclo 3: TECLA(win), DIGITAR(edge), TECLA(enter)\n  Ciclo 4: TECLA(win), DIGITAR(firefox), TECLA(enter)\n  Ciclo 5: TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(chrome)\n  Ciclo 6: TECLA(win), DIGITAR(edge), TECLA(enter), TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(chrome), TECLA(win), DIGITAR(google), TECLA(enter), TECLA(win), DIGITAR(x.com/home), TECLA(enter)\n  Ciclo 7: TECLA(win), DIGITAR(chrome), TECLA(enter), TECLA(win), DIGITAR(firefox), TECLA(enter), TECLA(win), DIGITAR(edge), TECLA(enter), TECLA(win), DIGITAR(x.com/home), TECLA(enter)\n  Ciclo 8: TECLA(win), DIGITAR(google), TECLA(enter), TECLA(win), DIGITAR(x.com/home), TECLA(enter), TECLA(win), DIGITAR(edge), TECLA(enter)\n  Ciclo 9: TECLA(win), DIGITAR(edge), TECLA(enter)\n\nErro no último ciclo: erro: você respondeu isto:\nAções executadas até agora:\nCiclo 10: TECLA(win), DIGITAR(x.com/blog), TECLA(enter)\nCiclo 11: TECLA(win), DIGITAR(google), TECLA(enter)\nCiclo 12: TECLA(win), DIGITAR(firefox), TECLA(enter)\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada.\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774368229,
-    "hora": "13:03:49",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "1. DIGITAR(x.com/blog), TECLA(enter)\n2. DIGITAR(google), TECLA(enter)\n3. DIGITAR(firefox), TECLA(enter)"
-  },
-  {
-    "ts": 1774368229,
-    "hora": "13:03:49",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: DIGITAR(x.com/blog), TECLA(enter)",
-    "detalhe": ""
-  },
-  {
     "ts": 1774368229,
     "hora": "13:03:49",
     "tipo": "info",
@@ -1398,5 +1328,75 @@
     "tipo": "hb",
     "msg": "Sistema OK — 13:38:04",
     "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:38"
+  },
+  {
+    "ts": 1774370314,
+    "hora": "13:38:34",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:38:34",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:38"
+  },
+  {
+    "ts": 1774370344,
+    "hora": "13:39:04",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:39:04",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:39"
+  },
+  {
+    "ts": 1774370374,
+    "hora": "13:39:34",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:39:34",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:39"
+  },
+  {
+    "ts": 1774370404,
+    "hora": "13:40:04",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:40:04",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:40"
+  },
+  {
+    "ts": 1774370434,
+    "hora": "13:40:34",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:40:34",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:40"
+  },
+  {
+    "ts": 1774370464,
+    "hora": "13:41:04",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:41:04",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:41"
+  },
+  {
+    "ts": 1774370494,
+    "hora": "13:41:34",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:41:34",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:41"
+  },
+  {
+    "ts": 1774370524,
+    "hora": "13:42:04",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:42:04",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:42"
+  },
+  {
+    "ts": 1774370554,
+    "hora": "13:42:34",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:42:34",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:42"
+  },
+  {
+    "ts": 1774370584,
+    "hora": "13:43:04",
+    "tipo": "hb",
+    "msg": "Sistema OK — 13:43:04",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 13:43"
   }
 ]
