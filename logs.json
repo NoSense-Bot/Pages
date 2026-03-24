@@ -1,145 +1,5 @@
 [
   {
-    "ts": 1774354375,
-    "hora": "09:12:55",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:12:55",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:12"
-  },
-  {
-    "ts": 1774354405,
-    "hora": "09:13:25",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:13:25",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:13"
-  },
-  {
-    "ts": 1774354435,
-    "hora": "09:13:55",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:13:55",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:13"
-  },
-  {
-    "ts": 1774354465,
-    "hora": "09:14:25",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:14:25",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:14"
-  },
-  {
-    "ts": 1774354495,
-    "hora": "09:14:55",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:14:55",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:14"
-  },
-  {
-    "ts": 1774354525,
-    "hora": "09:15:25",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:15:25",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:15"
-  },
-  {
-    "ts": 1774354555,
-    "hora": "09:15:55",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:15:55",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:15"
-  },
-  {
-    "ts": 1774354585,
-    "hora": "09:16:25",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:16:25",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:16"
-  },
-  {
-    "ts": 1774354615,
-    "hora": "09:16:55",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:16:55",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:16"
-  },
-  {
-    "ts": 1774354645,
-    "hora": "09:17:25",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:17:25",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:17"
-  },
-  {
-    "ts": 1774354675,
-    "hora": "09:17:55",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:17:55",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:17"
-  },
-  {
-    "ts": 1774354705,
-    "hora": "09:18:25",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:18:25",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:18"
-  },
-  {
-    "ts": 1774354735,
-    "hora": "09:18:55",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:18:55",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:18"
-  },
-  {
-    "ts": 1774354765,
-    "hora": "09:19:25",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:19:25",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:19"
-  },
-  {
-    "ts": 1774354795,
-    "hora": "09:19:55",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:19:55",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:19"
-  },
-  {
-    "ts": 1774354825,
-    "hora": "09:20:25",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:20:25",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:20"
-  },
-  {
-    "ts": 1774354855,
-    "hora": "09:20:55",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:20:55",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:20"
-  },
-  {
-    "ts": 1774354885,
-    "hora": "09:21:25",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:21:25",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:21"
-  },
-  {
-    "ts": 1774354915,
-    "hora": "09:21:55",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:21:55",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:21"
-  },
-  {
-    "ts": 1774354946,
-    "hora": "09:22:26",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:22:26",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:22"
-  },
-  {
     "ts": 1774354976,
     "hora": "09:22:56",
     "tipo": "hb",
@@ -1398,5 +1258,145 @@
     "tipo": "hb",
     "msg": "Sistema OK — 10:56:52",
     "detalhe": "Estado : Aguardando próximo horário...\nHorário: 10:56"
+  },
+  {
+    "ts": 1774360642,
+    "hora": "10:57:22",
+    "tipo": "hb",
+    "msg": "Sistema OK — 10:57:22",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 10:57"
+  },
+  {
+    "ts": 1774360672,
+    "hora": "10:57:52",
+    "tipo": "hb",
+    "msg": "Sistema OK — 10:57:52",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 10:57"
+  },
+  {
+    "ts": 1774360702,
+    "hora": "10:58:22",
+    "tipo": "hb",
+    "msg": "Sistema OK — 10:58:22",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 10:58"
+  },
+  {
+    "ts": 1774360732,
+    "hora": "10:58:52",
+    "tipo": "hb",
+    "msg": "Sistema OK — 10:58:52",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 10:58"
+  },
+  {
+    "ts": 1774360762,
+    "hora": "10:59:22",
+    "tipo": "hb",
+    "msg": "Sistema OK — 10:59:22",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 10:59"
+  },
+  {
+    "ts": 1774360793,
+    "hora": "10:59:53",
+    "tipo": "hb",
+    "msg": "Sistema OK — 10:59:53",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 10:59"
+  },
+  {
+    "ts": 1774360800,
+    "hora": "11:00:00",
+    "tipo": "timer",
+    "msg": "Horário 11:00 — iniciando tarefa",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774360800,
+    "hora": "11:00:00",
+    "tipo": "info",
+    "msg": "Nova instrução: Abra o aplicativo Google, acesse https://gemini.google.com/ , descreva na caixa de texto para criar uma imagem melancoliga gotica de um cenario feudal com legenda emo, clique com o botão direito do mouse e copie essa imagem, acesse https://www.youtube.com/@TalDoGuh/posts e cole a imagem no campo de postagem, acesse https://www.tiktok.com/tiktokstudio/upload?from=webapp e cole a imagem no campo de upload, acesse https://www.instagram.com/ e poste a imagem como um novo post, ",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774360800,
+    "hora": "11:00:00",
+    "tipo": "info",
+    "msg": "── Ciclo 1/99 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774360800,
+    "hora": "11:00:00",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://gemini.google.com/ , descreva na caixa de texto para criar uma imagem melancoliga gotica de um cenario feudal com legenda emo, clique com o botão direito do mouse e copie essa imagem, acesse https://www.youtube.com/@TalDoGuh/posts e cole a imagem no campo de postagem, acesse https://www.tiktok.com/tiktokstudio/upload?from=webapp e cole a imagem no campo de upload, acesse https://www.instagram.com/ e poste a imagem como um novo post, \nFEEDBACK: nenhum"
+  },
+  {
+    "ts": 1774360914,
+    "hora": "11:01:54",
+    "tipo": "resposta",
+    "msg": "IA respondeu",
+    "detalhe": "1. TECLA(win)\n2. DIGITAR(chrome)\n3. TECLA(enter)\n4. Navegar até <https://gemini.google.com/>\n5. Acessar o Google Gemini\n6. Descrever o cenário emo no campo de texto\n7. Clicar com o botão direito do mouse na imagem criada\n8. Copiar a imagem\n9. Acessar <https://www.youtube.com/@TalDoGuh/posts>\n10. Colecionar a imagem no campo de postagem"
+  },
+  {
+    "ts": 1774360914,
+    "hora": "11:01:54",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: TECLA(win)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774360914,
+    "hora": "11:01:54",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: DIGITAR(chrome)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774360914,
+    "hora": "11:01:54",
+    "tipo": "info",
+    "msg": "  ✓ Reconhecida: TECLA(enter)",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774360914,
+    "hora": "11:01:54",
+    "tipo": "info",
+    "msg": "3 ação(ões) reconhecida(s) — executando...",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774360914,
+    "hora": "11:01:54",
+    "tipo": "acao",
+    "msg": "Tecla: win",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774360915,
+    "hora": "11:01:54",
+    "tipo": "acao",
+    "msg": "Digitar: \"chrome\"",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774360915,
+    "hora": "11:01:55",
+    "tipo": "acao",
+    "msg": "Tecla: enter",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774360916,
+    "hora": "11:01:56",
+    "tipo": "info",
+    "msg": "── Ciclo 2/99 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774360916,
+    "hora": "11:01:56",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://gemini.google.com/ , descreva na caixa de texto para criar uma imagem melancoliga gotica de um cenario feudal com legenda emo, clique com o botão direito do mouse e copie essa imagem, acesse https://www.youtube.com/@TalDoGuh/posts e cole a imagem no campo de postagem, acesse https://www.tiktok.com/tiktokstudio/upload?from=webapp e cole a imagem no campo de upload, acesse https://www.instagram.com/ e poste a imagem como um novo post, \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
   }
 ]
