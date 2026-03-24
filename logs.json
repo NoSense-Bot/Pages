@@ -1,75 +1,5 @@
 [
   {
-    "ts": 1774385000,
-    "hora": "17:43:20",
-    "tipo": "hb",
-    "msg": "Sistema OK — 17:43:20",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:43"
-  },
-  {
-    "ts": 1774385030,
-    "hora": "17:43:50",
-    "tipo": "hb",
-    "msg": "Sistema OK — 17:43:50",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:43"
-  },
-  {
-    "ts": 1774385060,
-    "hora": "17:44:20",
-    "tipo": "hb",
-    "msg": "Sistema OK — 17:44:20",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:44"
-  },
-  {
-    "ts": 1774385090,
-    "hora": "17:44:50",
-    "tipo": "hb",
-    "msg": "Sistema OK — 17:44:50",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:44"
-  },
-  {
-    "ts": 1774385120,
-    "hora": "17:45:20",
-    "tipo": "hb",
-    "msg": "Sistema OK — 17:45:20",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:45"
-  },
-  {
-    "ts": 1774385150,
-    "hora": "17:45:50",
-    "tipo": "hb",
-    "msg": "Sistema OK — 17:45:50",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:45"
-  },
-  {
-    "ts": 1774385180,
-    "hora": "17:46:20",
-    "tipo": "hb",
-    "msg": "Sistema OK — 17:46:20",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:46"
-  },
-  {
-    "ts": 1774385210,
-    "hora": "17:46:50",
-    "tipo": "hb",
-    "msg": "Sistema OK — 17:46:50",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:46"
-  },
-  {
-    "ts": 1774385240,
-    "hora": "17:47:20",
-    "tipo": "hb",
-    "msg": "Sistema OK — 17:47:20",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:47"
-  },
-  {
-    "ts": 1774385270,
-    "hora": "17:47:50",
-    "tipo": "hb",
-    "msg": "Sistema OK — 17:47:50",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 17:47"
-  },
-  {
     "ts": 1774385301,
     "hora": "17:48:21",
     "tipo": "hb",
@@ -1398,5 +1328,75 @@
     "tipo": "hb",
     "msg": "Sistema OK — 18:10:49",
     "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:10"
+  },
+  {
+    "ts": 1774386679,
+    "hora": "18:11:19",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:11:19",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:11"
+  },
+  {
+    "ts": 1774386709,
+    "hora": "18:11:49",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:11:49",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:11"
+  },
+  {
+    "ts": 1774386740,
+    "hora": "18:12:20",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:12:20",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:12"
+  },
+  {
+    "ts": 1774386770,
+    "hora": "18:12:50",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:12:50",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:12"
+  },
+  {
+    "ts": 1774386800,
+    "hora": "18:13:20",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:13:20",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:13"
+  },
+  {
+    "ts": 1774386830,
+    "hora": "18:13:50",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:13:50",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:13"
+  },
+  {
+    "ts": 1774386860,
+    "hora": "18:14:20",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:14:20",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:14"
+  },
+  {
+    "ts": 1774386890,
+    "hora": "18:14:50",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:14:50",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:14"
+  },
+  {
+    "ts": 1774386920,
+    "hora": "18:15:20",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:15:20",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:15"
+  },
+  {
+    "ts": 1774386950,
+    "hora": "18:15:50",
+    "tipo": "hb",
+    "msg": "Sistema OK — 18:15:50",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 18:15"
   }
 ]
