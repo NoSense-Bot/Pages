@@ -1,89 +1,5 @@
 [
   {
-    "ts": 1774363279,
-    "hora": "11:41:19",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774363279,
-    "hora": "11:41:19",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: DIGITAR(chrome)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774363279,
-    "hora": "11:41:19",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(enter)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774363279,
-    "hora": "11:41:19",
-    "tipo": "info",
-    "msg": "3 ação(ões) reconhecida(s) — executando...",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774363279,
-    "hora": "11:41:19",
-    "tipo": "acao",
-    "msg": "Tecla: win",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774363280,
-    "hora": "11:41:20",
-    "tipo": "acao",
-    "msg": "Digitar: \"chrome\"",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774363280,
-    "hora": "11:41:20",
-    "tipo": "acao",
-    "msg": "Tecla: enter",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774363281,
-    "hora": "11:41:21",
-    "tipo": "info",
-    "msg": "── Ciclo 2/99 ──────────────────────────────",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774363281,
-    "hora": "11:41:21",
-    "tipo": "envio",
-    "msg": "Enviando para IA...",
-    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , poste um tweet com a legenda fazendo ragebait de algo que as pessoas odeiam. \nFEEDBACK: Ações já executadas até agora:\n  Ciclo 1: TECLA(win), DIGITAR(chrome), TECLA(enter)\n\nAnalise a nova captura de tela e continue a tarefa a partir daqui."
-  },
-  {
-    "ts": 1774363306,
-    "hora": "11:41:46",
-    "tipo": "resposta",
-    "msg": "IA respondeu",
-    "detalhe": "1. TECLA(win), DIGITAR(chrome), TECLA(enter)\n2. TECLA(enter), DIGITAR(https://x.com/home), TECLA(enter)\n3. DIGITAR(\"Tweet com legenda fazendo ragebait de algo que as pessoas odeiam\"), TECLA(enter)"
-  },
-  {
-    "ts": 1774363306,
-    "hora": "11:41:46",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(win), DIGITAR(chrome), TECLA(enter)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774363306,
-    "hora": "11:41:46",
-    "tipo": "info",
-    "msg": "  ✓ Reconhecida: TECLA(enter), DIGITAR(https://x.com/home), TECLA(enter)",
-    "detalhe": ""
-  },
-  {
     "ts": 1774363306,
     "hora": "11:41:46",
     "tipo": "info",
@@ -1398,5 +1314,89 @@
     "tipo": "hb",
     "msg": "Sistema OK — 12:15:48",
     "detalhe": "Estado : Aguardando próximo horário...\nHorário: 12:15"
+  },
+  {
+    "ts": 1774365378,
+    "hora": "12:16:18",
+    "tipo": "hb",
+    "msg": "Sistema OK — 12:16:18",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 12:16"
+  },
+  {
+    "ts": 1774365408,
+    "hora": "12:16:48",
+    "tipo": "hb",
+    "msg": "Sistema OK — 12:16:48",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 12:16"
+  },
+  {
+    "ts": 1774365438,
+    "hora": "12:17:18",
+    "tipo": "hb",
+    "msg": "Sistema OK — 12:17:18",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 12:17"
+  },
+  {
+    "ts": 1774365468,
+    "hora": "12:17:48",
+    "tipo": "hb",
+    "msg": "Sistema OK — 12:17:48",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 12:17"
+  },
+  {
+    "ts": 1774365498,
+    "hora": "12:18:18",
+    "tipo": "hb",
+    "msg": "Sistema OK — 12:18:18",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 12:18"
+  },
+  {
+    "ts": 1774365528,
+    "hora": "12:18:48",
+    "tipo": "hb",
+    "msg": "Sistema OK — 12:18:48",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 12:18"
+  },
+  {
+    "ts": 1774365558,
+    "hora": "12:19:18",
+    "tipo": "hb",
+    "msg": "Sistema OK — 12:19:18",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 12:19"
+  },
+  {
+    "ts": 1774365588,
+    "hora": "12:19:48",
+    "tipo": "hb",
+    "msg": "Sistema OK — 12:19:48",
+    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 12:19"
+  },
+  {
+    "ts": 1774365600,
+    "hora": "12:20:00",
+    "tipo": "timer",
+    "msg": "Horário 12:20 — iniciando tarefa",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774365600,
+    "hora": "12:20:00",
+    "tipo": "info",
+    "msg": "Nova instrução: Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. ",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774365600,
+    "hora": "12:20:00",
+    "tipo": "info",
+    "msg": "── Ciclo 1/99 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774365601,
+    "hora": "12:20:01",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o aplicativo Google, acesse https://x.com/home , ache um post, va a sessão de comentarios e responda algo. \nFEEDBACK: nenhum"
   }
 ]
