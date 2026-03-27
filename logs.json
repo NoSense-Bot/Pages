@@ -1,26 +1,5 @@
 [
   {
-    "ts": 1774615178,
-    "hora": "09:39:38",
-    "tipo": "info",
-    "msg": "Monitor 1 ativo — 768x1366 offset (-768,0)",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774615178,
-    "hora": "09:39:38",
-    "tipo": "info",
-    "msg": "Sistema iniciado — CTRL+C para parar",
-    "detalhe": ""
-  },
-  {
-    "ts": 1774615178,
-    "hora": "09:39:38",
-    "tipo": "hb",
-    "msg": "Sistema OK — 09:39:38",
-    "detalhe": "Estado : Aguardando próximo horário...\nHorário: 09:39"
-  },
-  {
     "ts": 1774615228,
     "hora": "09:40:28",
     "tipo": "hb",
@@ -1391,5 +1370,33 @@
     "tipo": "envio",
     "msg": "Enviando para IA...",
     "detalhe": "TAREFA  : Abra o Google e acesse x.com , e interaja com as 2 primeiras postagens do feed. (por fim feche o GOOGLE)\nFEEDBACK: erro: você respondeu isto:\nTarefa: Tarefa concluída - fechar Google\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada."
+  },
+  {
+    "ts": 1774643184,
+    "hora": "17:26:16",
+    "tipo": "erro",
+    "msg": "Falha ao chamar Ollama",
+    "detalhe": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+  },
+  {
+    "ts": 1774643184,
+    "hora": "17:26:24",
+    "tipo": "erro",
+    "msg": "Resposta vazia — tentativa 43/99",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774643184,
+    "hora": "17:26:24",
+    "tipo": "info",
+    "msg": "── Ciclo 44/999 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774643184,
+    "hora": "17:26:24",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o Google e acesse x.com , e interaja com as 2 primeiras postagens do feed. (por fim feche o GOOGLE)\nFEEDBACK: erro: você não respondeu nada. Responda com EXATAMENTE 3 ações no formato NOME(params)."
   }
 ]
