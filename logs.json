@@ -887,5 +887,61 @@
     "tipo": "envio",
     "msg": "Enviando para IA...",
     "detalhe": "TAREFA  : Abra o Google e acesse x.com , e interaja com as 2 primeiras postagens do feed. (por fim feche o GOOGLE)\nFEEDBACK: erro: você não respondeu nada. Responda com EXATAMENTE 3 ações no formato NOME(params)."
+  },
+  {
+    "ts": 1774632251,
+    "hora": "14:23:55",
+    "tipo": "erro",
+    "msg": "Falha ao chamar Ollama",
+    "detalhe": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+  },
+  {
+    "ts": 1774632251,
+    "hora": "14:24:11",
+    "tipo": "erro",
+    "msg": "Resposta vazia — tentativa 25/99",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774632251,
+    "hora": "14:24:11",
+    "tipo": "info",
+    "msg": "── Ciclo 26/999 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774632273,
+    "hora": "14:24:33",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o Google e acesse x.com , e interaja com as 2 primeiras postagens do feed. (por fim feche o GOOGLE)\nFEEDBACK: erro: você não respondeu nada. Responda com EXATAMENTE 3 ações no formato NOME(params)."
+  },
+  {
+    "ts": 1774632897,
+    "hora": "14:34:57",
+    "tipo": "erro",
+    "msg": "Falha ao chamar Ollama",
+    "detalhe": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+  },
+  {
+    "ts": 1774632897,
+    "hora": "14:34:57",
+    "tipo": "erro",
+    "msg": "Resposta vazia — tentativa 26/99",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774632897,
+    "hora": "14:34:57",
+    "tipo": "info",
+    "msg": "── Ciclo 27/999 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774632935,
+    "hora": "14:35:34",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o Google e acesse x.com , e interaja com as 2 primeiras postagens do feed. (por fim feche o GOOGLE)\nFEEDBACK: erro: você não respondeu nada. Responda com EXATAMENTE 3 ações no formato NOME(params)."
   }
 ]
