@@ -215,5 +215,61 @@
     "tipo": "envio",
     "msg": "Enviando para IA...",
     "detalhe": "TAREFA  : Abra o Google e acesse x.com , e interaja com as 2 primeiras postagens do feed. (por fim feche o GOOGLE)\nFEEDBACK: nenhum"
+  },
+  {
+    "ts": 1774617002,
+    "hora": "10:10:02",
+    "tipo": "erro",
+    "msg": "Falha ao chamar Ollama",
+    "detalhe": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+  },
+  {
+    "ts": 1774617015,
+    "hora": "10:10:15",
+    "tipo": "erro",
+    "msg": "Resposta vazia — tentativa 1/99",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774617015,
+    "hora": "10:10:15",
+    "tipo": "info",
+    "msg": "── Ciclo 2/999 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774617046,
+    "hora": "10:10:41",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o Google e acesse x.com , e interaja com as 2 primeiras postagens do feed. (por fim feche o GOOGLE)\nFEEDBACK: erro: você não respondeu nada. Responda com EXATAMENTE 3 ações no formato NOME(params)."
+  },
+  {
+    "ts": 1774617652,
+    "hora": "10:20:52",
+    "tipo": "erro",
+    "msg": "Falha ao chamar Ollama",
+    "detalhe": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+  },
+  {
+    "ts": 1774617659,
+    "hora": "10:20:59",
+    "tipo": "erro",
+    "msg": "Resposta vazia — tentativa 2/99",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774617659,
+    "hora": "10:20:59",
+    "tipo": "info",
+    "msg": "── Ciclo 3/999 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774617662,
+    "hora": "10:21:02",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o Google e acesse x.com , e interaja com as 2 primeiras postagens do feed. (por fim feche o GOOGLE)\nFEEDBACK: erro: você não respondeu nada. Responda com EXATAMENTE 3 ações no formato NOME(params)."
   }
 ]
