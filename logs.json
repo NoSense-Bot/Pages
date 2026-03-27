@@ -411,5 +411,61 @@
     "tipo": "envio",
     "msg": "Enviando para IA...",
     "detalhe": "TAREFA  : Abra o Google e acesse x.com , e interaja com as 2 primeiras postagens do feed. (por fim feche o GOOGLE)\nFEEDBACK: erro: você não respondeu nada. Responda com EXATAMENTE 3 ações no formato NOME(params)."
+  },
+  {
+    "ts": 1774621418,
+    "hora": "11:23:38",
+    "tipo": "erro",
+    "msg": "Falha ao chamar Ollama",
+    "detalhe": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+  },
+  {
+    "ts": 1774621418,
+    "hora": "11:23:38",
+    "tipo": "erro",
+    "msg": "Resposta vazia — tentativa 8/99",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774621418,
+    "hora": "11:23:38",
+    "tipo": "info",
+    "msg": "── Ciclo 9/999 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774621436,
+    "hora": "11:23:48",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o Google e acesse x.com , e interaja com as 2 primeiras postagens do feed. (por fim feche o GOOGLE)\nFEEDBACK: erro: você não respondeu nada. Responda com EXATAMENTE 3 ações no formato NOME(params)."
+  },
+  {
+    "ts": 1774622039,
+    "hora": "11:33:59",
+    "tipo": "erro",
+    "msg": "Falha ao chamar Ollama",
+    "detalhe": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+  },
+  {
+    "ts": 1774622039,
+    "hora": "11:33:59",
+    "tipo": "erro",
+    "msg": "Resposta vazia — tentativa 9/99",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774622039,
+    "hora": "11:33:59",
+    "tipo": "info",
+    "msg": "── Ciclo 10/999 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774622056,
+    "hora": "11:34:16",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o Google e acesse x.com , e interaja com as 2 primeiras postagens do feed. (por fim feche o GOOGLE)\nFEEDBACK: erro: você não respondeu nada. Responda com EXATAMENTE 3 ações no formato NOME(params)."
   }
 ]
