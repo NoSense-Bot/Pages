@@ -1083,5 +1083,61 @@
     "tipo": "envio",
     "msg": "Enviando para IA...",
     "detalhe": "TAREFA  : Abra o Google e acesse x.com , e interaja com as 2 primeiras postagens do feed. (por fim feche o GOOGLE)\nFEEDBACK: erro: você não respondeu nada. Responda com EXATAMENTE 3 ações no formato NOME(params)."
+  },
+  {
+    "ts": 1774636736,
+    "hora": "15:38:42",
+    "tipo": "erro",
+    "msg": "Falha ao chamar Ollama",
+    "detalhe": "HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=600)"
+  },
+  {
+    "ts": 1774636736,
+    "hora": "15:38:56",
+    "tipo": "erro",
+    "msg": "Resposta vazia — tentativa 32/99",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774636736,
+    "hora": "15:38:56",
+    "tipo": "info",
+    "msg": "── Ciclo 33/999 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774636748,
+    "hora": "15:39:08",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o Google e acesse x.com , e interaja com as 2 primeiras postagens do feed. (por fim feche o GOOGLE)\nFEEDBACK: erro: você não respondeu nada. Responda com EXATAMENTE 3 ações no formato NOME(params)."
+  },
+  {
+    "ts": 1774637005,
+    "hora": "15:43:25",
+    "tipo": "resposta",
+    "msg": "IA respondeu",
+    "detalhe": "ESTÁ BLANCO!"
+  },
+  {
+    "ts": 1774637005,
+    "hora": "15:43:25",
+    "tipo": "erro",
+    "msg": "Formato inválido — tentativa 33/99",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774637005,
+    "hora": "15:43:25",
+    "tipo": "info",
+    "msg": "── Ciclo 34/999 ──────────────────────────────",
+    "detalhe": ""
+  },
+  {
+    "ts": 1774637005,
+    "hora": "15:43:25",
+    "tipo": "envio",
+    "msg": "Enviando para IA...",
+    "detalhe": "TAREFA  : Abra o Google e acesse x.com , e interaja com as 2 primeiras postagens do feed. (por fim feche o GOOGLE)\nFEEDBACK: erro: você respondeu isto:\nESTÁ BLANCO!\n\nIsso NÃO está no formato esperado. Responda SOMENTE 3 linhas, cada uma sendo NOME(params), sem mais nada."
   }
 ]
